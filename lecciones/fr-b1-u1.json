@@ -1,0 +1,452 @@
+{
+  "id": "fr-b1-u1",
+  "lang": "fr",
+  "level": "B1",
+  "title": "Contar, opinar y relacionar ideas",
+  "description": "Imparfait y passé composé, futuro y condicional, opinión, relativos, estilo indirecto y pronombres y/en.",
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Souvenirs",
+      "focus": "Imparfait y passé composé",
+      "intro": "El imparfait describe situaciones y costumbres en el pasado: quand j'étais petit, j'habitais à Séville. El passé composé narra acciones puntuales y terminadas: un jour, j'ai déménagé. Formación del imparfait: raíz de nous en presente + -ais, -ais, -ait, -ions, -iez, -aient (nous finissons → je finissais). Única excepción: être → j'étais.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en el tiempo adecuado.",
+          "sentence": "Quand j'étais petit, je ___ au foot tous les samedis. (jouer)",
+          "answer": "jouais",
+          "tr": "Cuando era pequeño, jugaba al fútbol todos los sábados.",
+          "explain": "Costumbre en el pasado: imparfait."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en el tiempo adecuado.",
+          "sentence": "Un jour, mon père ___ un nouveau travail. (trouver)",
+          "answer": "a trouvé",
+          "tr": "Un día, mi padre encontró un trabajo nuevo.",
+          "explain": "Acción puntual introducida por un jour: passé composé."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il ___ quand je suis sorti.",
+          "options": ["pleuvait", "a plu", "pleut", "pleuvra"],
+          "answer": "pleuvait",
+          "tr": "Llovía cuando salí.",
+          "explain": "El imparfait describe el marco en el que ocurre una acción puntual en passé composé."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo al imparfait.",
+          "source": "Nous finissons tard le vendredi.",
+          "answer": "Nous finissions tard le vendredi.",
+          "tr": "Terminábamos tarde los viernes.",
+          "explain": "Raíz de nous finissons + -ions: nous finissions."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en el tiempo adecuado.",
+          "sentence": "Je lisais quand le téléphone ___. (sonner)",
+          "answer": "a sonné",
+          "tr": "Estaba leyendo cuando sonó el teléfono.",
+          "explain": "La acción que interrumpe va en passé composé."
+        },
+        {
+          "type": "translate",
+          "prompt": "Antes vivíamos en el centro.",
+          "answer": "Avant, nous habitions dans le centre.",
+          "accept": [
+            "avant {nous habitions|on habitait|nous vivions|on vivait} {dans le centre|au centre|au centre ville|dans le centre ville}"
+          ],
+          "explain": "Situación habitual en el pasado: imparfait."
+        },
+        {
+          "type": "choice",
+          "sentence": "Hier soir, nous ___ au restaurant.",
+          "options": ["sommes allés", "allions", "allons", "irons"],
+          "answer": "sommes allés",
+          "tr": "Anoche fuimos al restaurante.",
+          "explain": "Acción puntual y terminada en un momento concreto: passé composé."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las dos frases en pasado con «quand» (la primera es el marco).",
+          "source": "Je dors. Le réveil sonne.",
+          "answer": "Je dormais quand le réveil a sonné.",
+          "tr": "Estaba durmiendo cuando sonó el despertador.",
+          "explain": "Marco en imparfait (je dormais) y acción puntual en passé composé (a sonné)."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "Projets et hypothèses",
+      "focus": "Futur simple y condicional",
+      "intro": "Futur simple: infinitivo + -ai, -as, -a, -ons, -ez, -ont (je parlerai). Irregulares frecuentes: être → je serai, avoir → j'aurai, aller → j'irai, faire → je ferai, pouvoir → je pourrai, venir → je viendrai. Condicional: raíz del futuro + terminaciones del imparfait (je parlerais). Hipótesis: si + presente → futuro; si + imparfait → condicional.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en futur simple.",
+          "sentence": "L'année prochaine, j'___ en France. (aller)",
+          "answer": "irai",
+          "tr": "El año que viene iré a Francia.",
+          "explain": "Aller tiene la raíz irregular ir-: j'irai."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en futur simple.",
+          "sentence": "Nous ___ le temps demain. (avoir)",
+          "answer": "aurons",
+          "tr": "Mañana tendremos tiempo.",
+          "explain": "Avoir tiene la raíz irregular aur-: nous aurons."
+        },
+        {
+          "type": "choice",
+          "sentence": "Si j'avais plus d'argent, j'___ une maison.",
+          "options": ["achèterais", "achèterai", "achetais", "achète"],
+          "answer": "achèterais",
+          "tr": "Si tuviera más dinero, compraría una casa.",
+          "explain": "Si + imparfait → condicional presente."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo al futur simple.",
+          "source": "Ils vont venir ce soir.",
+          "answer": "Ils viendront ce soir.",
+          "tr": "Vendrán esta noche.",
+          "explain": "Venir tiene la raíz irregular viendr-: ils viendront."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en el tiempo adecuado.",
+          "sentence": "S'il fait beau demain, nous ___ une promenade. (faire)",
+          "answer": "ferons",
+          "tr": "Si mañana hace buen tiempo, daremos un paseo.",
+          "explain": "Si + presente → futur simple."
+        },
+        {
+          "type": "translate",
+          "prompt": "¿Podrías ayudarme?",
+          "answer": "Tu pourrais m'aider ?",
+          "accept": [
+            "{tu pourrais|pourrais tu|est ce que tu pourrais} m'aider"
+          ],
+          "explain": "El condicional de pouvoir suaviza una petición."
+        },
+        {
+          "type": "choice",
+          "sentence": "Si tu étudiais plus, tu ___ l'examen.",
+          "options": ["réussirais", "réussiras", "réussissais", "réussis"],
+          "answer": "réussirais",
+          "tr": "Si estudiaras más, aprobarías el examen.",
+          "explain": "Si + imparfait → condicional presente."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Transfórmala en hipótesis poco probable (si + imparfait).",
+          "source": "Si j'ai le temps, je viendrai.",
+          "answer": "Si j'avais le temps, je viendrais.",
+          "tr": "Si tuviera tiempo, vendría.",
+          "explain": "Si + imparfait (j'avais) → condicional (je viendrais)."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Donner son avis",
+      "focus": "Opinión y conectores",
+      "intro": "Para opinar: je pense que, je crois que, à mon avis, selon moi (+ indicativo). Conectores básicos del razonamiento: pourtant (sin embargo), donc (por lo tanto), parce que (porque), alors que (mientras que), en revanche (en cambio), d'ailleurs (además, por cierto).",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "Je ne suis pas d'accord ___ toi.",
+          "options": ["avec", "de", "à", "pour"],
+          "answer": "avec",
+          "tr": "No estoy de acuerdo contigo.",
+          "explain": "Être d'accord avec quelqu'un."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il a beaucoup travaillé, ___ il n'a pas réussi.",
+          "options": ["pourtant", "donc", "parce que", "alors"],
+          "answer": "pourtant",
+          "tr": "Ha trabajado mucho y, sin embargo, no lo ha conseguido.",
+          "explain": "Pourtant introduce una oposición."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["à mon avis", "en mi opinión"],
+            ["pourtant", "sin embargo"],
+            ["donc", "por lo tanto"],
+            ["d'ailleurs", "por cierto"],
+            ["en revanche", "en cambio"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "Creo que tienes razón.",
+          "answer": "Je crois que tu as raison.",
+          "accept": [
+            "je {crois|pense} que tu as raison"
+          ],
+          "explain": "Tener razón = avoir raison."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il est resté à la maison ___il était malade.",
+          "options": ["parce qu'", "pourtant ", "donc ", "malgré "],
+          "answer": "parce qu'",
+          "tr": "Se quedó en casa porque estaba enfermo.",
+          "explain": "Parce que introduce la causa; delante de vocal, parce qu'."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con «donc».",
+          "source": "Il pleut. Je prends un parapluie.",
+          "answer": "Il pleut, donc je prends un parapluie.",
+          "tr": "Llueve, así que cojo un paraguas.",
+          "explain": "Donc introduce una consecuencia."
+        },
+        {
+          "type": "choice",
+          "sentence": "___ moi, c'est une bonne idée.",
+          "options": ["Selon", "D'après de", "Pour à", "Avec"],
+          "answer": "Selon",
+          "tr": "En mi opinión, es una buena idea.",
+          "explain": "Selon moi, d'après moi y pour moi son equivalentes de «en mi opinión»."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa el conector (mientras que).",
+          "sentence": "Elle aime la mer, ___ que son mari préfère la montagne.",
+          "answer": "alors",
+          "tr": "A ella le gusta el mar, mientras que su marido prefiere la montaña.",
+          "explain": "Alors que expresa contraste entre dos hechos."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "Les pronoms relatifs",
+      "focus": "Qui, que, où y dont",
+      "intro": "Qui funciona como sujeto: la femme qui parle. Que, como complemento directo: le livre que je lis. Où indica lugar o tiempo: la ville où j'habite, le jour où je suis arrivé. Dont sustituye a un complemento con de: le film dont je parle (la película de la que hablo).",
+      "exercises": [
+        {
+          "type": "gap",
+          "sentence": "C'est le collègue ___ travaille avec moi.",
+          "options": ["qui", "que", "dont", "où"],
+          "answer": "qui",
+          "tr": "Es el compañero que trabaja conmigo.",
+          "explain": "El relativo es sujeto de travaille: qui."
+        },
+        {
+          "type": "gap",
+          "sentence": "Voici le rapport ___ tu m'as demandé.",
+          "options": ["que", "qui", "dont", "où"],
+          "answer": "que",
+          "tr": "Aquí está el informe que me pediste.",
+          "explain": "El relativo es complemento directo de demander: que."
+        },
+        {
+          "type": "gap",
+          "sentence": "C'est la ville ___ je suis né.",
+          "options": ["où", "que", "qui", "dont"],
+          "answer": "où",
+          "tr": "Es la ciudad donde nací.",
+          "explain": "Lugar: où."
+        },
+        {
+          "type": "gap",
+          "sentence": "C'est le projet ___ je t'ai parlé.",
+          "options": ["dont", "que", "qui", "où"],
+          "answer": "dont",
+          "tr": "Es el proyecto del que te hablé.",
+          "explain": "Parler de quelque chose → dont."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con un pronombre relativo.",
+          "source": "J'ai un ami. Il habite à Paris.",
+          "answer": "J'ai un ami qui habite à Paris.",
+          "tr": "Tengo un amigo que vive en París.",
+          "explain": "Il es sujeto: qui."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con un pronombre relativo.",
+          "source": "Voici le livre. J'ai besoin de ce livre.",
+          "answer": "Voici le livre dont j'ai besoin.",
+          "tr": "Aquí está el libro que necesito.",
+          "explain": "Avoir besoin de → dont."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa con el pronombre relativo.",
+          "sentence": "Le jour ___ je l'ai rencontrée, il neigeait.",
+          "answer": "où",
+          "tr": "El día en que la conocí, nevaba.",
+          "explain": "Où también introduce un momento."
+        },
+        {
+          "type": "translate",
+          "prompt": "La película que vimos era muy buena.",
+          "answer": "Le film que nous avons vu était très bien.",
+          "accept": [
+            "le film {que nous avons vu|qu'on a vu} était {très bien|très bon|excellent}"
+          ],
+          "explain": "Que es complemento directo de avons vu."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Le discours rapporté",
+      "focus": "Estilo indirecto",
+      "intro": "Para transmitir palabras ajenas: il dit que + indicativo. Si el verbo introductor está en pasado, los tiempos cambian: presente → imparfait, passé composé → plus-que-parfait, futuro → condicional. Il a dit : « Je suis fatigué » → Il a dit qu'il était fatigué. Las preguntas cerradas se introducen con si; qu'est-ce que pasa a ce que.",
+      "exercises": [
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a estilo indirecto.",
+          "source": "Marie dit : « Je suis en retard. »",
+          "answer": "Marie dit qu'elle est en retard.",
+          "tr": "Marie dice que llega tarde.",
+          "explain": "Con el verbo introductor en presente, el tiempo no cambia."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a estilo indirecto.",
+          "source": "Paul a dit : « Je suis fatigué. »",
+          "answer": "Paul a dit qu'il était fatigué.",
+          "tr": "Paul dijo que estaba cansado.",
+          "explain": "Con el verbo introductor en pasado: presente → imparfait."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il m'a demandé ___ j'étais libre.",
+          "options": ["si", "que", "quoi", "ce que"],
+          "answer": "si",
+          "tr": "Me preguntó si estaba libre.",
+          "explain": "Las preguntas cerradas se introducen con si."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a estilo indirecto.",
+          "source": "Elle a dit : « Je viendrai demain. »",
+          "answer": "Elle a dit qu'elle viendrait le lendemain.",
+          "accept": [
+            "elle a dit qu'elle viendrait {le lendemain|demain}"
+          ],
+          "tr": "Dijo que vendría al día siguiente.",
+          "explain": "Futuro → condicional; demain suele pasar a le lendemain."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il m'a demandé ___ je voulais boire.",
+          "options": ["ce que", "qu'est-ce que", "que", "si"],
+          "answer": "ce que",
+          "tr": "Me preguntó qué quería beber.",
+          "explain": "En la pregunta indirecta, qu'est-ce que pasa a ce que."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en plus-que-parfait.",
+          "sentence": "Ils ont expliqué qu'ils ___ le train. (rater)",
+          "answer": "avaient raté",
+          "tr": "Explicaron que habían perdido el tren.",
+          "explain": "Plus-que-parfait: auxiliar en imparfait + participio."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le directeur a annoncé que la réunion ___ annulée.",
+          "options": ["était", "est été", "sera", "soit"],
+          "answer": "était",
+          "tr": "El director anunció que la reunión estaba cancelada.",
+          "explain": "Con el verbo introductor en pasado: presente → imparfait."
+        },
+        {
+          "type": "translate",
+          "prompt": "Me dijo que no podía venir.",
+          "answer": "Il m'a dit qu'il ne pouvait pas venir.",
+          "accept": [
+            "{il|elle} m'a dit qu'{il|elle} ne pouvait pas venir"
+          ],
+          "explain": "Estilo indirecto en pasado: pouvoir en imparfait."
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "Les pronoms y et en",
+      "focus": "Y, en e imperativo",
+      "intro": "Y sustituye a un lugar o a un complemento con à: j'y vais, j'y pense. En sustituye a un complemento con de o a una cantidad: j'en parle, j'en ai deux. En imperativo afirmativo van detrás del verbo, y los verbos en -er recuperan la -s: vas-y, parles-en.",
+      "exercises": [
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por «y» o «en».",
+          "source": "Je vais à la banque.",
+          "answer": "J'y vais.",
+          "tr": "Voy (allí).",
+          "explain": "Lugar introducido por à: y."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por «y» o «en».",
+          "source": "Il parle souvent de son travail.",
+          "answer": "Il en parle souvent.",
+          "tr": "Habla de ello a menudo.",
+          "explain": "Parler de quelque chose → en."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por «y» o «en».",
+          "source": "Nous pensons à nos vacances.",
+          "answer": "Nous y pensons.",
+          "tr": "Pensamos en ello.",
+          "explain": "Penser à quelque chose → y."
+        },
+        {
+          "type": "choice",
+          "sentence": "Tu as des frères ? — Oui, j'___ ai deux.",
+          "options": ["en", "y", "les", "leur"],
+          "answer": "en",
+          "tr": "¿Tienes hermanos? — Sí, tengo dos.",
+          "explain": "Con una cantidad se usa en: j'en ai deux."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a imperativo (tú) sustituyendo el complemento.",
+          "source": "Tu vas au marché.",
+          "answer": "Vas-y !",
+          "tr": "¡Ve!",
+          "explain": "En imperativo, va recupera la -s delante de y: vas-y."
+        },
+        {
+          "type": "gap",
+          "sentence": "Tu t'intéresses à la politique ? — Oui, je m'___ intéresse beaucoup.",
+          "options": ["y", "en", "lui", "la"],
+          "answer": "y",
+          "tr": "¿Te interesa la política? — Sí, me interesa mucho.",
+          "explain": "S'intéresser à quelque chose → y."
+        },
+        {
+          "type": "translate",
+          "prompt": "No pienso en ello.",
+          "answer": "Je n'y pense pas.",
+          "explain": "Penser à → y; la negación rodea al bloque y + verbo."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Responde en negativo sustituyendo el complemento.",
+          "source": "Tu as besoin de la voiture ?",
+          "answer": "Non, je n'en ai pas besoin.",
+          "accept": [
+            "{non |}je n'en ai pas besoin"
+          ],
+          "tr": "No, no la necesito.",
+          "explain": "Avoir besoin de → en."
+        }
+      ]
+    }
+  ]
+}

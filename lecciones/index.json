@@ -1,0 +1,11 @@
+{
+  "lang": "fr",
+  "defaultLevel": "A2",
+  "levels": [
+    { "id": "A1", "name": "Inicial", "units": ["fr-a1-u1.json"] },
+    { "id": "A2", "name": "Elemental", "units": ["fr-a2-u1.json"] },
+    { "id": "B1", "name": "Intermedio", "units": ["fr-b1-u1.json"] },
+    { "id": "B2", "name": "Intermedio alto", "units": ["fr-b2-u1.json"] },
+    { "id": "C1", "name": "Avanzado", "units": ["fr-c1-u1.json"] }
+  ]
+}

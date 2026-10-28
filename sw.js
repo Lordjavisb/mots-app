@@ -1,5 +1,10 @@
-const CACHE = 'mots-v4';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'lecciones/fr-a2-u1.json'];
+const CACHE = 'mots-v5';
+const SHELL = [
+  './', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png',
+  'lecciones/index.json',
+  'lecciones/fr-a1-u1.json', 'lecciones/fr-a2-u1.json', 'lecciones/fr-b1-u1.json',
+  'lecciones/fr-b2-u1.json', 'lecciones/fr-c1-u1.json'
+];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));

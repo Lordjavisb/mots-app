@@ -1,0 +1,464 @@
+{
+  "id": "fr-a1-u1",
+  "lang": "fr",
+  "level": "A1",
+  "title": "Primeros pasos",
+  "description": "Presentarse, la familia, la casa, la hora, el café y la ciudad.",
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Se présenter",
+      "focus": "Être, avoir y saludos",
+      "intro": "Être (ser/estar): je suis, tu es, il/elle est, nous sommes, vous êtes, ils/elles sont. Avoir (tener): j'ai, tu as, il a, nous avons, vous avez, ils ont. Delante de vocal, je se convierte en j': j'ai. La edad se dice con avoir: j'ai trente ans.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Je ___ espagnol. (être)",
+          "answer": "suis",
+          "tr": "Soy español.",
+          "explain": "Être con je: je suis."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Nous ___ deux enfants. (avoir)",
+          "answer": "avons",
+          "tr": "Tenemos dos hijos.",
+          "explain": "Avoir con nous: nous avons."
+        },
+        {
+          "type": "choice",
+          "sentence": "Elle ___ trente ans.",
+          "options": ["a", "est", "as", "ai"],
+          "answer": "a",
+          "tr": "Tiene treinta años.",
+          "explain": "La edad se expresa con avoir, no con être."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["bonjour", "buenos días"],
+            ["au revoir", "adiós"],
+            ["merci", "gracias"],
+            ["s'il vous plaît", "por favor"],
+            ["enchanté", "encantado"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "Me llamo Javier y vivo en Madrid.",
+          "answer": "Je m'appelle Javier et j'habite à Madrid.",
+          "accept": [
+            "je m'appelle javier et {j'habite|je vis} à madrid"
+          ],
+          "explain": "Llamarse = s'appeler (je m'appelle). Vivir en una ciudad = habiter à."
+        },
+        {
+          "type": "gap",
+          "sentence": "Vous ___ d'où ?",
+          "options": ["êtes", "est", "sont", "es"],
+          "answer": "êtes",
+          "tr": "¿De dónde es usted?",
+          "explain": "Être con vous: vous êtes."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Je suis français.",
+          "answer": "Je ne suis pas français.",
+          "tr": "No soy francés.",
+          "explain": "La negación rodea al verbo: ne + verbo + pas."
+        },
+        {
+          "type": "choice",
+          "sentence": "___ ami s'appelle Paul.",
+          "options": ["Mon", "Ma", "Mes", "Me"],
+          "answer": "Mon",
+          "tr": "Mi amigo se llama Paul.",
+          "explain": "Ami es masculino singular: mon ami."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "La famille",
+      "focus": "Posesivos y artículos",
+      "intro": "Los posesivos concuerdan con la cosa poseída: mon père, ma mère, mes parents. Delante de vocal se usa mon también con sustantivos femeninos: mon amie. Artículos determinados: le, la, l', les. Indeterminados: un, une, des.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "___ sœur habite à Lyon.",
+          "options": ["Ma", "Mon", "Mes", "Me"],
+          "answer": "Ma",
+          "tr": "Mi hermana vive en Lyon.",
+          "explain": "Sœur es femenino singular: ma sœur."
+        },
+        {
+          "type": "gap",
+          "sentence": "Ce sont ___ parents.",
+          "options": ["mes", "mon", "ma", "me"],
+          "answer": "mes",
+          "tr": "Son mis padres.",
+          "explain": "Parents es plural: mes."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["le père", "el padre"],
+            ["la mère", "la madre"],
+            ["le frère", "el hermano"],
+            ["la fille", "la hija"],
+            ["les grands-parents", "los abuelos"]
+          ]
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el artículo indeterminado (un, une o des).",
+          "sentence": "J'ai ___ frère et deux sœurs.",
+          "answer": "un",
+          "tr": "Tengo un hermano y dos hermanas.",
+          "explain": "Frère es masculino singular: un frère."
+        },
+        {
+          "type": "translate",
+          "prompt": "Mi hermano tiene dos hijos.",
+          "answer": "Mon frère a deux enfants.",
+          "accept": [
+            "mon frère a {deux|2} enfants"
+          ],
+          "explain": "Hijos, sin distinguir sexo, se dice enfants."
+        },
+        {
+          "type": "choice",
+          "sentence": "C'est ___ amie Claire.",
+          "options": ["mon", "ma", "mes", "me"],
+          "answer": "mon",
+          "tr": "Es mi amiga Claire.",
+          "explain": "Delante de vocal se usa mon, aunque el sustantivo sea femenino."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo al plural.",
+          "source": "Le cousin est sympa.",
+          "answer": "Les cousins sont sympas.",
+          "tr": "Los primos son simpáticos.",
+          "explain": "Les + sustantivo en plural; être pasa a sont y el adjetivo toma -s."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el artículo determinado (le, la, l' o les).",
+          "sentence": "___oncle de Marie est médecin.",
+          "answer": "L'",
+          "tr": "El tío de Marie es médico.",
+          "explain": "Delante de vocal, le y la se convierten en l'."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Chez moi",
+      "focus": "Il y a, lugar y adjetivos",
+      "intro": "Il y a = hay: il y a une cuisine. Preposiciones de lugar: dans (dentro de), sur (encima de), sous (debajo de), devant (delante de), derrière (detrás de), à côté de (al lado de). Los adjetivos concuerdan con el sustantivo y suelen ir detrás: une maison blanche.",
+      "exercises": [
+        {
+          "type": "gap",
+          "sentence": "Le chat est ___ la table. (debajo de)",
+          "options": ["sous", "dans", "derrière", "devant"],
+          "answer": "sous",
+          "tr": "El gato está debajo de la mesa.",
+          "explain": "Sous = debajo de; sur = encima de."
+        },
+        {
+          "type": "translate",
+          "prompt": "En mi piso hay dos dormitorios.",
+          "answer": "Dans mon appartement, il y a deux chambres.",
+          "accept": [
+            "dans mon appartement il y a {deux|2} chambres",
+            "il y a {deux|2} chambres dans mon appartement"
+          ],
+          "explain": "Il y a = hay. Dormitorio = chambre."
+        },
+        {
+          "type": "choice",
+          "sentence": "C'est une maison ___.",
+          "options": ["blanche", "blanc", "blancs", "blanches"],
+          "answer": "blanche",
+          "tr": "Es una casa blanca.",
+          "explain": "Maison es femenino singular: blanc → blanche."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["la cuisine", "la cocina"],
+            ["la salle de bains", "el cuarto de baño"],
+            ["le salon", "el salón"],
+            ["la chambre", "el dormitorio"],
+            ["le jardin", "el jardín"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Il y a un ascenseur.",
+          "answer": "Il n'y a pas d'ascenseur.",
+          "tr": "No hay ascensor.",
+          "explain": "Tras la negación, un/une/des pasan a de (d' delante de vocal): pas d'ascenseur."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa con la preposición que falta.",
+          "sentence": "La salle de bains est à côté ___ la chambre.",
+          "answer": "de",
+          "tr": "El baño está al lado del dormitorio.",
+          "explain": "À côté de = al lado de."
+        },
+        {
+          "type": "choice",
+          "sentence": "Les chaises sont ___.",
+          "options": ["petites", "petits", "petite", "petit"],
+          "answer": "petites",
+          "tr": "Las sillas son pequeñas.",
+          "explain": "Chaises es femenino plural: petites."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Nous ___ dans un grand appartement. (habiter)",
+          "answer": "habitons",
+          "tr": "Vivimos en un piso grande.",
+          "explain": "Verbos en -er con nous: -ons."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "L'heure et la journée",
+      "focus": "La hora y los verbos en -er",
+      "intro": "Para preguntar la hora: Quelle heure est-il ? Se responde con il est: il est huit heures, huit heures et demie, neuf heures moins le quart. Verbos en -er en presente: je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent.",
+      "exercises": [
+        {
+          "type": "choice",
+          "prompt": "¿Cómo se dice «son las ocho y media»?",
+          "options": ["Il est huit heures et demie.", "Il est huit heures et demi.", "C'est huit heures et demie.", "Il a huit heures et demie."],
+          "answer": "Il est huit heures et demie.",
+          "explain": "La hora se dice con il est. Tras heures (femenino), et demie."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Je ___ à neuf heures. (commencer)",
+          "answer": "commence",
+          "tr": "Empiezo a las nueve.",
+          "explain": "Verbos en -er con je: -e."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Nous ___ à midi. (manger)",
+          "answer": "mangeons",
+          "tr": "Comemos a mediodía.",
+          "explain": "Los verbos en -ger conservan la e delante de -ons: nous mangeons."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["midi", "mediodía"],
+            ["minuit", "medianoche"],
+            ["le matin", "la mañana"],
+            ["la nuit", "la noche"],
+            ["tous les jours", "todos los días"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "¿Qué hora es?",
+          "answer": "Quelle heure est-il ?",
+          "accept": [
+            "quelle heure est il",
+            "il est quelle heure",
+            "quelle heure il est"
+          ],
+          "explain": "La forma estándar es Quelle heure est-il ? En registro coloquial: Il est quelle heure ?"
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a nous.",
+          "source": "Je travaille le samedi.",
+          "answer": "Nous travaillons le samedi.",
+          "tr": "Trabajamos los sábados.",
+          "explain": "Le samedi (con artículo) indica costumbre: los sábados."
+        },
+        {
+          "type": "choice",
+          "sentence": "Ils ___ français et anglais.",
+          "options": ["parlent", "parles", "parlons", "parlez"],
+          "answer": "parlent",
+          "tr": "Hablan francés e inglés.",
+          "explain": "Ils/elles: terminación -ent, que no se pronuncia."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa la hora.",
+          "sentence": "Il est neuf heures moins le ___. (cuarto)",
+          "answer": "quart",
+          "tr": "Son las nueve menos cuarto.",
+          "explain": "Moins le quart = menos cuarto; et quart = y cuarto."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Au café",
+      "focus": "Pedir y los partitivos",
+      "intro": "Para pedir con cortesía: je voudrais (querría), s'il vous plaît. Con comida y bebida en cantidad indeterminada: du café, de la bière, de l'eau. En negativo pasan a de: je ne bois pas de vin. Para pagar: l'addition, s'il vous plaît.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "Je ___ un café, s'il vous plaît.",
+          "options": ["voudrais", "voulez", "voulons", "veulent"],
+          "answer": "voudrais",
+          "tr": "Querría un café, por favor.",
+          "explain": "Je voudrais es la forma cortés de pedir."
+        },
+        {
+          "type": "gap",
+          "sentence": "Vous avez ___eau gazeuse ?",
+          "options": ["de l'", "du", "de la", "des"],
+          "answer": "de l'",
+          "tr": "¿Tiene agua con gas?",
+          "explain": "Delante de vocal, du y de la pasan a de l'."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["la carte", "la carta"],
+            ["le serveur", "el camarero"],
+            ["l'addition", "la cuenta"],
+            ["un pourboire", "una propina"],
+            ["une boisson", "una bebida"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "La cuenta, por favor.",
+          "answer": "L'addition, s'il vous plaît.",
+          "accept": [
+            "l'addition s'il {vous|te} plaît"
+          ],
+          "explain": "En un bar o restaurante, la cuenta es l'addition."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el partitivo.",
+          "sentence": "Elle prend ___ thé.",
+          "answer": "du",
+          "tr": "Toma té.",
+          "explain": "Thé es masculino: du thé."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Hazlo más cortés con «je voudrais».",
+          "source": "Je veux une table pour deux.",
+          "answer": "Je voudrais une table pour deux.",
+          "accept": [
+            "je voudrais une table pour {deux|2}{ personnes|}"
+          ],
+          "tr": "Querría una mesa para dos.",
+          "explain": "Je voudrais (condicional de vouloir) suaviza la petición."
+        },
+        {
+          "type": "choice",
+          "sentence": "Qu'est-ce que vous ___ comme dessert ?",
+          "options": ["prenez", "prends", "prenons", "prennent"],
+          "answer": "prenez",
+          "tr": "¿Qué toma de postre?",
+          "explain": "Prendre con vous: vous prenez."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Je bois du vin.",
+          "answer": "Je ne bois pas de vin.",
+          "tr": "No bebo vino.",
+          "explain": "En negativo, du pasa a de: pas de vin."
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "En ville",
+      "focus": "Aller, contracciones e indicaciones",
+      "intro": "Aller: je vais, tu vas, il va, nous allons, vous allez, ils vont. À + le = au; à + les = aux: je vais au marché, aux toilettes. À la y à l' no cambian: à la gare, à l'hôtel. Indicaciones: tout droit (todo recto), à gauche, à droite.",
+      "exercises": [
+        {
+          "type": "gap",
+          "sentence": "Je vais ___ cinéma ce soir.",
+          "options": ["au", "à la", "à le", "aux"],
+          "answer": "au",
+          "tr": "Voy al cine esta noche.",
+          "explain": "Cinéma es masculino: à + le = au."
+        },
+        {
+          "type": "gap",
+          "sentence": "Nous allons ___ gare.",
+          "options": ["à la", "au", "à le", "aux"],
+          "answer": "à la",
+          "tr": "Vamos a la estación.",
+          "explain": "Gare es femenino: à la no se contrae."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Vous ___ à la banque ? (aller)",
+          "answer": "allez",
+          "tr": "¿Va usted al banco?",
+          "explain": "Aller con vous: vous allez."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["tout droit", "todo recto"],
+            ["à gauche", "a la izquierda"],
+            ["à droite", "a la derecha"],
+            ["le carrefour", "el cruce"],
+            ["le feu", "el semáforo"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "¿Dónde está la estación, por favor?",
+          "answer": "Où est la gare, s'il vous plaît ?",
+          "accept": [
+            "{excusez moi |pardon |}{où est|où se trouve} la gare{ s'il vous plaît|}"
+          ],
+          "explain": "Où est… ? o Où se trouve… ? para preguntar por un lugar."
+        },
+        {
+          "type": "choice",
+          "sentence": "Ils ___ au musée le dimanche.",
+          "options": ["vont", "allons", "va", "allez"],
+          "answer": "vont",
+          "tr": "Van al museo los domingos.",
+          "explain": "Aller con ils: ils vont."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Corrige la contracción.",
+          "source": "Je parle à les clients.",
+          "answer": "Je parle aux clients.",
+          "tr": "Hablo con los clientes.",
+          "explain": "À + les = aux. La forma «à les» no existe."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa la indicación.",
+          "sentence": "Tournez à ___ après le feu. (izquierda)",
+          "answer": "gauche",
+          "tr": "Gire a la izquierda después del semáforo.",
+          "explain": "À gauche = a la izquierda; à droite = a la derecha."
+        }
+      ]
+    }
+  ]
+}

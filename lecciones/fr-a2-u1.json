@@ -16,6 +16,7 @@
           "prompt": "Conjuga el verbo entre paréntesis.",
           "sentence": "Le matin, je ___ à sept heures. (se réveiller)",
           "answer": "me réveille",
+          "tr": "Por la mañana, me despierto a las siete.",
           "explain": "Con je, el pronombre reflexivo es me: je me réveille."
         },
         {
@@ -23,6 +24,7 @@
           "sentence": "Le matin, ___ avant de partir.",
           "options": ["nous habillons", "nous nous habillons", "s'habillons", "nous habille"],
           "answer": "nous nous habillons",
+          "tr": "Por la mañana, nos vestimos antes de salir.",
           "explain": "Con nous, el pronombre se repite: nous nous habillons."
         },
         {
@@ -40,6 +42,7 @@
           "prompt": "Pon la frase en negativo.",
           "source": "Je me lève tôt le dimanche.",
           "answer": "Je ne me lève pas tôt le dimanche.",
+          "tr": "No me levanto temprano los domingos.",
           "explain": "Ne va delante del pronombre reflexivo y pas detrás del verbo."
         },
         {
@@ -47,6 +50,7 @@
           "sentence": "Tu ___ à quelle heure le soir ?",
           "options": ["te couches", "se couche", "couches", "te couche"],
           "answer": "te couches",
+          "tr": "¿A qué hora te acuestas por la noche?",
           "explain": "Con tu: pronombre te y terminación -es."
         },
         {
@@ -63,6 +67,7 @@
           "prompt": "Pásalo a imperativo (tú).",
           "source": "Tu te dépêches.",
           "answer": "Dépêche-toi !",
+          "tr": "¡Date prisa!",
           "explain": "En imperativo afirmativo, te pasa detrás del verbo como toi, unido con guion. Los verbos en -er pierden la -s: dépêche."
         },
         {
@@ -99,6 +104,7 @@
           "sentence": "Je ne peux pas te parler, je suis ___ préparer la présentation.",
           "options": ["en train de", "en train à", "en cours de", "sur le point à"],
           "answer": "en train de",
+          "tr": "No puedo hablar contigo, estoy preparando la presentación.",
           "explain": "Être en train de + infinitivo expresa una acción en curso."
         },
         {
@@ -106,6 +112,7 @@
           "prompt": "Conjuga el verbo entre paréntesis.",
           "sentence": "Mon chef ___ le rapport avant vendredi. (vouloir)",
           "answer": "veut",
+          "tr": "Mi jefe quiere el informe antes del viernes.",
           "explain": "Vouloir: je veux, tu veux, il veut."
         },
         {
@@ -113,6 +120,7 @@
           "prompt": "Conjuga el verbo entre paréntesis.",
           "sentence": "Nous ___ finir ce projet ce mois-ci. (devoir)",
           "answer": "devons",
+          "tr": "Tenemos que terminar este proyecto este mes.",
           "explain": "Devoir: je dois, tu dois, il doit, nous devons, vous devez, ils doivent."
         },
         {
@@ -123,6 +131,7 @@
           "accept": [
             "elle est en train d'écrire un {courriel|e mail|mail|email|message}"
           ],
+          "tr": "Está escribiendo un correo.",
           "explain": "Delante de vocal, de se convierte en d': en train d'écrire."
         },
         {
@@ -140,6 +149,7 @@
           "sentence": "Le directeur est absent : la réunion est ___ à jeudi.",
           "options": ["reportée", "rapportée", "emportée", "apportée"],
           "answer": "reportée",
+          "tr": "El director no está: la reunión se aplaza al jueves.",
           "explain": "Reporter significa aplazar. Rapporter significa devolver o informar; es un falso amigo frecuente."
         },
         {
@@ -147,6 +157,7 @@
           "sentence": "Tu peux m'envoyer le document ___ midi ?",
           "options": ["avant", "devant", "depuis", "pendant"],
           "answer": "avant",
+          "tr": "¿Puedes enviarme el documento antes de mediodía?",
           "explain": "Avant es «antes de» (tiempo); devant es «delante de» (lugar)."
         }
       ]
@@ -162,6 +173,7 @@
           "prompt": "Escribe el futur proche del verbo.",
           "sentence": "Demain, nous ___ le client. (appeler)",
           "answer": "allons appeler",
+          "tr": "Mañana vamos a llamar al cliente.",
           "explain": "Aller en presente (nous allons) + infinitivo."
         },
         {
@@ -172,6 +184,7 @@
           "accept": [
             "ils vont prendre le train de {8 h|8h|huit heures}"
           ],
+          "tr": "Van a coger el tren de las 8.",
           "explain": "Ils vont + infinitivo: ils vont prendre."
         },
         {
@@ -179,6 +192,7 @@
           "sentence": "Le rendez-vous est ___ 15 h ___ 16 h.",
           "options": ["de … à", "entre … à", "depuis … jusqu'", "à … de"],
           "answer": "de … à",
+          "tr": "La cita es de 15:00 a 16:00.",
           "explain": "Para un intervalo horario: de… à… (o entre… et…)."
         },
         {
@@ -197,6 +211,7 @@
           "sentence": "Désolé, je ne suis pas ___ le 12, j'ai déjà une réunion.",
           "options": ["disponible", "libre de", "occupé à", "possible"],
           "answer": "disponible",
+          "tr": "Lo siento, no estoy disponible el día 12, ya tengo una reunión.",
           "explain": "Être disponible es la forma estándar en contexto profesional."
         },
         {
@@ -218,6 +233,7 @@
             "{non |}je ne vais pas venir{ à la réunion|}",
             "{non |}je ne vais pas y venir"
           ],
+          "tr": "No, no voy a ir a la reunión.",
           "explain": "En el futur proche, la negación rodea a aller: je ne vais pas venir."
         },
         {
@@ -225,6 +241,7 @@
           "prompt": "Completa con la preposición adecuada.",
           "sentence": "On se retrouve ___ la gare à 18 h ? (delante de)",
           "answer": "devant",
+          "tr": "¿Quedamos delante de la estación a las 18:00?",
           "explain": "Devant = delante de (lugar)."
         }
       ]
@@ -240,6 +257,7 @@
           "prompt": "Escribe el verbo en passé composé.",
           "sentence": "Hier, nous ___ le rapport à 19 h. (finir)",
           "answer": "avons fini",
+          "tr": "Ayer terminamos el informe a las 19:00.",
           "explain": "Finir va con avoir: nous avons fini."
         },
         {
@@ -247,6 +265,7 @@
           "prompt": "Escribe el verbo en passé composé.",
           "sentence": "Ce matin, elle ___ en retard. (arriver)",
           "answer": "est arrivée",
+          "tr": "Esta mañana ha llegado tarde.",
           "explain": "Arriver va con être y el participio concuerda con el sujeto femenino: arrivée."
         },
         {
@@ -254,6 +273,7 @@
           "sentence": "Nous ___ au bureau à pied.",
           "options": ["sommes allés", "avons allé", "sommes allé", "avons allés"],
           "answer": "sommes allés",
+          "tr": "Hemos ido a la oficina andando.",
           "explain": "Aller va con être; el participio concuerda en plural: allés."
         },
         {
@@ -264,6 +284,7 @@
           "accept": [
             "j'ai pris le métro et {je suis|suis} descendu à châtelet"
           ],
+          "tr": "He cogido el metro y me he bajado en Châtelet.",
           "explain": "Prendre va con avoir (pris); descendre, verbo de movimiento, con être (descendu)."
         },
         {
@@ -274,6 +295,7 @@
           "accept": [
             "ils se sont levés à {six heures|6 h|6h}"
           ],
+          "tr": "Se levantaron a las seis.",
           "explain": "Los verbos pronominales van con être y concuerdan: ils se sont levés."
         },
         {
@@ -290,6 +312,7 @@
           "sentence": "La réunion ___ deux heures.",
           "options": ["a duré", "est duré", "est durée", "a durée"],
           "answer": "a duré",
+          "tr": "La reunión duró dos horas.",
           "explain": "Durer va con avoir y, con avoir, el participio no concuerda con el sujeto."
         },
         {
@@ -297,6 +320,7 @@
           "prompt": "Pon la frase en negativo.",
           "source": "Elle est rentrée tard.",
           "answer": "Elle n'est pas rentrée tard.",
+          "tr": "No volvió tarde.",
           "explain": "En los tiempos compuestos, ne… pas rodea al auxiliar."
         },
         {
@@ -322,6 +346,7 @@
           "prompt": "¿Qué saludo usarías para escribir a un cliente al que no conoces?",
           "options": ["Salut,", "Madame, Monsieur,", "Coucou,", "Cher ami,"],
           "answer": "Madame, Monsieur,",
+          "tr": "Señora, señor:",
           "explain": "Madame, Monsieur, es el saludo formal cuando no se conoce al destinatario."
         },
         {
@@ -329,6 +354,7 @@
           "prompt": "¿Qué despedida es adecuada en un correo profesional?",
           "options": ["Bisous", "À plus", "Cordialement", "Ciao"],
           "answer": "Cordialement",
+          "tr": "Saludos cordiales",
           "explain": "Cordialement o Bien cordialement son las despedidas estándar en correos profesionales."
         },
         {
@@ -336,6 +362,7 @@
           "prompt": "Sustituye los complementos por pronombres.",
           "source": "J'envoie le contrat au client.",
           "answer": "Je le lui envoie.",
+          "tr": "Se lo envío.",
           "explain": "Le contrat → le; au client → lui. Orden: le antes de lui."
         },
         {
@@ -343,6 +370,7 @@
           "prompt": "Sustituye el complemento por un pronombre.",
           "source": "Je téléphone à Mme Dupont demain.",
           "answer": "Je lui téléphone demain.",
+          "tr": "La llamo mañana.",
           "explain": "Téléphoner à quelqu'un lleva complemento indirecto: lui."
         },
         {
@@ -350,6 +378,7 @@
           "prompt": "Sustituye el complemento por un pronombre.",
           "source": "Nous avons reçu votre message.",
           "answer": "Nous l'avons reçu.",
+          "tr": "Lo hemos recibido.",
           "explain": "En passé composé, el pronombre va delante del auxiliar: nous l'avons reçu."
         },
         {
@@ -360,6 +389,7 @@
           "accept": [
             "{vous pouvez|pouvez vous|est ce que vous pouvez|pourriez vous|vous pourriez} me rappeler cet après midi"
           ],
+          "tr": "¿Puede volver a llamarme esta tarde?",
           "explain": "Pouvoir con vous: vous pouvez. Pourriez-vous es todavía más cortés."
         },
         {
@@ -376,6 +406,7 @@
           "sentence": "Pourriez-vous me ___ le document signé ?",
           "options": ["renvoyer", "rendre visite", "répondre", "téléphoner"],
           "answer": "renvoyer",
+          "tr": "¿Podría reenviarme el documento firmado?",
           "explain": "Renvoyer quelque chose à quelqu'un = reenviar o devolver algo. Los otros verbos no admiten un complemento directo como le document."
         },
         {
@@ -383,6 +414,7 @@
           "prompt": "Conjuga el verbo entre paréntesis.",
           "sentence": "Je vous ___ d'agréer, Madame, l'expression de mes salutations distinguées. (prier)",
           "answer": "prie",
+          "tr": "Le ruego acepte, señora, la expresión de mis más distinguidos saludos.",
           "explain": "Fórmula de cierre de carta formal. En correos se prefiere Cordialement."
         }
       ]
@@ -398,6 +430,7 @@
           "sentence": "Je voudrais ___ pain, s'il vous plaît.",
           "options": ["du", "de la", "des", "le"],
           "answer": "du",
+          "tr": "Querría pan, por favor.",
           "explain": "Pain es masculino y aquí la cantidad es indeterminada: du pain."
         },
         {
@@ -405,6 +438,7 @@
           "sentence": "Il n'y a plus ___ lait dans le frigo.",
           "options": ["de", "du", "le", "des"],
           "answer": "de",
+          "tr": "Ya no queda leche en la nevera.",
           "explain": "Tras una negación, el partitivo pasa a de: plus de lait."
         },
         {
@@ -412,6 +446,7 @@
           "prompt": "Completa el hueco.",
           "sentence": "J'ai acheté un kilo ___ pommes.",
           "answer": "de",
+          "tr": "He comprado un kilo de manzanas.",
           "explain": "Después de una cantidad se usa de, sin artículo."
         },
         {
@@ -422,6 +457,7 @@
           "accept": [
             "j'en achète {trois|3}"
           ],
+          "tr": "Compro tres.",
           "explain": "En sustituye a bouteilles d'eau; la cantidad (trois) se mantiene al final."
         },
         {
@@ -432,6 +468,7 @@
           "accept": [
             "{non |}je n'en ai pas"
           ],
+          "tr": "No, no tengo.",
           "explain": "En va delante del verbo y ne… pas lo rodea: je n'en ai pas."
         },
         {
@@ -459,6 +496,7 @@
           "prompt": "Pon la frase en negativo.",
           "source": "Je mange de la viande.",
           "answer": "Je ne mange pas de viande.",
+          "tr": "No como carne.",
           "explain": "En negativo, de la pasa a de: pas de viande."
         }
       ]

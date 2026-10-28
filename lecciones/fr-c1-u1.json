@@ -1,0 +1,464 @@
+{
+  "id": "fr-c1-u1",
+  "lang": "fr",
+  "level": "C1",
+  "title": "Precisión y estilo",
+  "description": "Léxico preciso, conectores del discurso, subjuntivo avanzado, expresiones idiomáticas, redacción profesional y tiempos del relato.",
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Les nuances du lexique",
+      "focus": "Parónimos, falsos amigos y colocaciones",
+      "intro": "En C1 importa elegir la palabra exacta. Cuidado con los parónimos (imminent/éminent, conjoncture/conjecture) y con los falsos amigos del español: constipé no significa «constipado», sino «estreñido»; «estar resfriado» es être enrhumé. También cuentan las colocaciones: prendre une décision, prendre des précautions, mener une enquête.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "Un accord semble ___ : la signature est prévue demain.",
+          "options": ["imminent", "éminent", "immanent", "émanant"],
+          "answer": "imminent",
+          "tr": "Un acuerdo parece inminente: la firma está prevista para mañana.",
+          "explain": "Imminent = a punto de producirse. Éminent = ilustre, destacado."
+        },
+        {
+          "type": "choice",
+          "sentence": "Dans la ___ économique actuelle, les investissements ralentissent.",
+          "options": ["conjoncture", "conjecture", "conjonction", "jointure"],
+          "answer": "conjoncture",
+          "tr": "En la coyuntura económica actual, las inversiones se ralentizan.",
+          "explain": "Conjoncture = coyuntura. Conjecture = conjetura, suposición."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cómo se dice «estoy resfriado»?",
+          "options": ["Je suis enrhumé.", "Je suis constipé.", "Je suis refroidi.", "Je suis gelé."],
+          "answer": "Je suis enrhumé.",
+          "explain": "Constipé significa estreñido: es un falso amigo clásico."
+        },
+        {
+          "type": "match",
+          "prompt": "Empareja cada falso amigo con su significado real.",
+          "pairs": [
+            ["la librairie", "la librería"],
+            ["la bibliothèque", "la biblioteca"],
+            ["être enceinte", "estar embarazada"],
+            ["être embarrassé", "sentirse violento"],
+            ["la carrière", "la trayectoria profesional"]
+          ]
+        },
+        {
+          "type": "choice",
+          "sentence": "Cette mesure risque d'___ les tensions.",
+          "options": ["exacerber", "exaspérer", "exalter", "exhorter"],
+          "answer": "exacerber",
+          "tr": "Esta medida podría exacerbar las tensiones.",
+          "explain": "Exacerber = agravar (una tensión, un dolor). Exaspérer = irritar a alguien."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il a ___ toutes les précautions nécessaires.",
+          "options": ["pris", "fait", "mis", "donné"],
+          "answer": "pris",
+          "tr": "Ha tomado todas las precauciones necesarias.",
+          "explain": "Colocación fija: prendre des précautions."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le rapport ___ plusieurs failles dans le dispositif de sécurité.",
+          "options": ["met en évidence", "met en œuvre", "met au point", "met en cause de"],
+          "answer": "met en évidence",
+          "tr": "El informe pone de manifiesto varias fallas en el dispositivo de seguridad.",
+          "explain": "Mettre en évidence = poner de relieve; mettre en œuvre = aplicar; mettre au point = poner a punto."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo de la colocación (tomar).",
+          "sentence": "Il faut ___ une décision avant vendredi.",
+          "answer": "prendre",
+          "tr": "Hay que tomar una decisión antes del viernes.",
+          "explain": "Colocación fija: prendre une décision."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "Articuler un raisonnement",
+      "focus": "Conectores del discurso argumentativo",
+      "intro": "Un texto argumentativo de nivel C1 encadena las ideas con conectores precisos: d'une part… d'autre part (por un lado… por otro), certes… mais (es cierto que… pero), en outre (además), quant à (en cuanto a), dès lors (en consecuencia), or (ahora bien), en somme (en suma), d'autant plus que (tanto más cuanto que).",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "___, cette solution est coûteuse ; mais elle est durable.",
+          "options": ["Certes", "Or", "Dès lors", "Quant à"],
+          "answer": "Certes",
+          "tr": "Es cierto que esta solución es costosa; pero es duradera.",
+          "explain": "Certes… mais introduce una concesión seguida de un contraargumento."
+        },
+        {
+          "type": "choice",
+          "sentence": "Tous les hommes sont mortels ; ___ Socrate est un homme.",
+          "options": ["or", "donc", "certes", "en outre"],
+          "answer": "or",
+          "tr": "Todos los hombres son mortales; ahora bien, Sócrates es un hombre.",
+          "explain": "Or introduce un dato nuevo que hace avanzar el razonamiento."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le projet est approuvé. ___ au budget, il reste à définir.",
+          "options": ["Quant", "Pour", "En ce qui", "Concernant"],
+          "answer": "Quant",
+          "tr": "El proyecto está aprobado. En cuanto al presupuesto, queda por definir.",
+          "explain": "Quant à (au, aux) = en cuanto a."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["en outre", "además"],
+            ["dès lors", "en consecuencia"],
+            ["en somme", "en suma"],
+            ["d'autant plus que", "tanto más cuanto que"],
+            ["à l'inverse", "a la inversa"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con «d'une part… d'autre part».",
+          "source": "Ce plan réduit les coûts. Il améliore la sécurité.",
+          "answer": "D'une part, ce plan réduit les coûts ; d'autre part, il améliore la sécurité.",
+          "tr": "Por un lado, este plan reduce los costes; por otro, mejora la seguridad.",
+          "explain": "D'une part… d'autre part presenta dos argumentos del mismo peso."
+        },
+        {
+          "type": "gap",
+          "sentence": "La menace est réelle ; ___, il serait imprudent de l'ignorer.",
+          "options": ["dès lors", "pourtant", "certes", "quoique"],
+          "answer": "dès lors",
+          "tr": "La amenaza es real; en consecuencia, sería imprudente ignorarla.",
+          "explain": "Dès lors introduce la consecuencia lógica de lo anterior."
+        },
+        {
+          "type": "choice",
+          "sentence": "Cette réforme est urgente, ___ les délais sont courts.",
+          "options": ["d'autant plus que", "tant plus que", "autant plus que", "de plus que"],
+          "answer": "d'autant plus que",
+          "tr": "Esta reforma es urgente, tanto más cuanto que los plazos son cortos.",
+          "explain": "D'autant plus que añade una razón que refuerza lo dicho."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa el conector (en suma).",
+          "sentence": "En ___, les résultats sont encourageants.",
+          "answer": "somme",
+          "tr": "En suma, los resultados son alentadores.",
+          "explain": "En somme introduce una conclusión."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Le subjonctif avancé",
+      "focus": "Subjuntivo tras conjunciones, superlativos y relativas",
+      "intro": "Además de los casos de B2, el subjuntivo aparece tras pour peu que, à moins que y de crainte que (estas dos, a menudo con ne expletivo: à moins qu'il ne pleuve), sans que, quoi que, en relativas tras un superlativo (c'est le meilleur film que j'aie vu) y en relativas que expresan un requisito (je cherche quelqu'un qui sache…). El subjuntivo pasado: que j'aie fini, qu'elle soit partie.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Conjuga el auxiliar en subjuntivo.",
+          "sentence": "C'est le meilleur livre que j'___ jamais lu. (avoir)",
+          "answer": "aie",
+          "tr": "Es el mejor libro que he leído nunca.",
+          "explain": "Tras un superlativo, la relativa va en subjuntivo: que j'aie lu."
+        },
+        {
+          "type": "choice",
+          "sentence": "Nous partirons à moins qu'il ne ___.",
+          "options": ["pleuve", "pleut", "pleuvra", "pleuvait"],
+          "answer": "pleuve",
+          "tr": "Nos iremos a menos que llueva.",
+          "explain": "À moins que + subjuntivo; el ne es expletivo y no niega."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en subjuntivo.",
+          "sentence": "Je cherche un assistant qui ___ l'arabe. (savoir)",
+          "answer": "sache",
+          "tr": "Busco un asistente que sepa árabe.",
+          "explain": "La relativa expresa un requisito, no un hecho: subjuntivo."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il est parti sans que personne ne s'en ___ compte.",
+          "options": ["rende", "rend", "rendait", "rendra"],
+          "answer": "rende",
+          "tr": "Se fue sin que nadie se diera cuenta.",
+          "explain": "Sans que + subjuntivo."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el auxiliar en subjuntivo.",
+          "sentence": "Je suis ravi que vous ___ venus. (être)",
+          "answer": "soyez",
+          "tr": "Me alegra que hayan venido.",
+          "explain": "Subjuntivo pasado: que vous soyez venus."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con «de crainte que».",
+          "source": "Je l'ai prévenu. Il pourrait oublier.",
+          "answer": "Je l'ai prévenu de crainte qu'il n'oublie.",
+          "accept": [
+            "je l'ai prévenu de crainte qu'il {n'oublie|oublie}"
+          ],
+          "tr": "Le avisé por miedo a que se le olvidara.",
+          "explain": "De crainte que + subjuntivo, con ne expletivo opcional."
+        },
+        {
+          "type": "choice",
+          "sentence": "Quoi qu'il ___, je ne changerai pas d'avis.",
+          "options": ["dise", "dit", "dira", "disait"],
+          "answer": "dise",
+          "tr": "Diga lo que diga, no cambiaré de opinión.",
+          "explain": "Quoi que (en dos palabras) + subjuntivo = diga lo que diga."
+        },
+        {
+          "type": "translate",
+          "prompt": "Por poco que te esfuerces, lo conseguirás.",
+          "answer": "Pour peu que tu fasses un effort, tu réussiras.",
+          "accept": [
+            "pour peu que tu {fasses un effort|fasses des efforts|t'efforces} tu {réussiras|y arriveras|y parviendras}"
+          ],
+          "explain": "Pour peu que + subjuntivo = basta con que, por poco que."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "Expressions idiomatiques",
+      "focus": "Locuciones frecuentes",
+      "intro": "Las expresiones idiomáticas no se traducen palabra por palabra: conviene aprenderlas con su equivalente funcional en español y con su registro. La mayoría de las de esta lección son coloquiales; en un texto formal se evitan.",
+      "exercises": [
+        {
+          "type": "match",
+          "pairs": [
+            ["avoir le cafard", "estar de bajón"],
+            ["poser un lapin", "dar plantón"],
+            ["coûter les yeux de la tête", "costar un ojo de la cara"],
+            ["tomber dans les pommes", "desmayarse"],
+            ["avoir du pain sur la planche", "tener mucho trabajo por delante"]
+          ]
+        },
+        {
+          "type": "choice",
+          "prompt": "«Il pleut des cordes» significa…",
+          "options": ["Llueve a cántaros.", "Llueve poco.", "Hace viento.", "Va a llover."],
+          "answer": "Llueve a cántaros.",
+          "explain": "Pleuvoir des cordes = llover con mucha intensidad."
+        },
+        {
+          "type": "choice",
+          "sentence": "Ce n'est pas la mer à ___ !",
+          "options": ["boire", "voir", "traverser", "nager"],
+          "answer": "boire",
+          "tr": "¡No es para tanto!",
+          "explain": "Ce n'est pas la mer à boire = no es tan difícil."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il a pris ses jambes à son ___.",
+          "options": ["cou", "dos", "bras", "pied"],
+          "answer": "cou",
+          "tr": "Salió por piernas.",
+          "explain": "Prendre ses jambes à son cou = huir corriendo."
+        },
+        {
+          "type": "choice",
+          "sentence": "Arrête de tourner autour du ___ et dis-moi la vérité.",
+          "options": ["pot", "plat", "sujet", "coin"],
+          "answer": "pot",
+          "tr": "Deja de andarte por las ramas y dime la verdad.",
+          "explain": "Tourner autour du pot = andarse por las ramas."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["mettre les pieds dans le plat", "meter la pata"],
+            ["avoir un poil dans la main", "ser un vago"],
+            ["donner sa langue au chat", "darse por vencido"],
+            ["casser les pieds", "dar la lata"],
+            ["passer l'éponge", "hacer borrón y cuenta nueva"]
+          ]
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa la expresión (vaso).",
+          "sentence": "C'est la goutte d'eau qui fait déborder le ___.",
+          "answer": "vase",
+          "tr": "Es la gota que colma el vaso.",
+          "explain": "Le vase = el jarrón; aquí, el recipiente que desborda."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il faut battre le fer tant qu'il est ___.",
+          "options": ["chaud", "rouge", "fort", "dur"],
+          "answer": "chaud",
+          "tr": "Hay que aprovechar la ocasión (literalmente: batir el hierro mientras está caliente).",
+          "explain": "Battre le fer tant qu'il est chaud = aprovechar el momento favorable."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Rédiger une note",
+      "focus": "Redacción profesional e impersonal",
+      "intro": "En una nota o un informe profesional se evita la primera persona y se usan estructuras impersonales y nominalizadas: il ressort de l'analyse que…, il convient de…, la mise en œuvre de…, compte tenu de… Las recomendaciones suelen ir en infinitivo: renforcer les contrôles, sensibiliser le personnel.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "Il ___ de l'analyse que les risques ont augmenté.",
+          "options": ["ressort", "sort", "rend", "relève à"],
+          "answer": "ressort",
+          "tr": "Del análisis se desprende que los riesgos han aumentado.",
+          "explain": "Il ressort de… que = se desprende de… que."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula como recomendación en infinitivo.",
+          "source": "Nous devons renforcer les contrôles d'accès.",
+          "answer": "Renforcer les contrôles d'accès.",
+          "tr": "Reforzar los controles de acceso.",
+          "explain": "En las recomendaciones de un informe se suprime el sujeto y se usa el infinitivo."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Nominaliza: sustituye el verbo por un sustantivo.",
+          "source": "On a mis en œuvre le plan en mars.",
+          "answer": "La mise en œuvre du plan a eu lieu en mars.",
+          "accept": [
+            "la mise en œuvre du plan {a eu lieu|est intervenue|a été effectuée} en mars"
+          ],
+          "tr": "La aplicación del plan tuvo lugar en marzo.",
+          "explain": "Mettre en œuvre → la mise en œuvre."
+        },
+        {
+          "type": "choice",
+          "sentence": "___ de la situation, le déplacement est reporté.",
+          "options": ["Compte tenu", "Tenant compte", "Comptant", "Au compte"],
+          "answer": "Compte tenu",
+          "tr": "Habida cuenta de la situación, el viaje se aplaza.",
+          "explain": "Compte tenu de = habida cuenta de, teniendo en cuenta."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il ___ de sensibiliser le personnel aux nouvelles procédures.",
+          "options": ["convient", "faut", "doit", "importe à"],
+          "answer": "convient",
+          "tr": "Conviene sensibilizar al personal sobre los nuevos procedimientos.",
+          "explain": "Il convient de + infinitivo. Il faut no lleva de."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["à l'heure actuelle", "en la actualidad"],
+            ["dans l'immédiat", "de momento"],
+            ["à moyen terme", "a medio plazo"],
+            ["le cas échéant", "llegado el caso"],
+            ["sous réserve de", "a reserva de"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "Cabe señalar que la situación sigue siendo inestable.",
+          "answer": "Il convient de souligner que la situation reste instable.",
+          "accept": [
+            "il {convient de souligner|convient de noter|est à noter|faut souligner|faut noter} que la situation {reste|demeure} instable"
+          ],
+          "explain": "Construcción impersonal + rester/demeurer (seguir siendo)."
+        },
+        {
+          "type": "choice",
+          "sentence": "La réunion se tiendra ___ de confirmation par le ministère.",
+          "options": ["sous réserve", "à condition", "faute", "en raison"],
+          "answer": "sous réserve",
+          "tr": "La reunión se celebrará a reserva de confirmación por el ministerio.",
+          "explain": "Sous réserve de = a reserva de, siempre que se confirme."
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "Les temps du récit",
+      "focus": "Passé simple y passé antérieur (reconocimiento)",
+      "intro": "El passé simple es el tiempo del relato escrito (literatura, historia, algunos textos de prensa). En C1 basta con reconocerlo: il fut (fue), il eut (tuvo), ils firent (hicieron), elle vint (vino). Terminaciones: verbos en -er → il parla, ils parlèrent; en -ir y -re → il finit, ils prirent. El passé antérieur (il eut fini) expresa anterioridad inmediata respecto a un passé simple.",
+      "exercises": [
+        {
+          "type": "match",
+          "pairs": [
+            ["il fut", "fue"],
+            ["il eut", "tuvo"],
+            ["ils firent", "hicieron"],
+            ["elle vint", "vino"],
+            ["ils prirent", "tomaron"]
+          ]
+        },
+        {
+          "type": "choice",
+          "sentence": "Le roi ___ en 1715.",
+          "options": ["mourut", "mourit", "mourra", "mourat"],
+          "answer": "mourut",
+          "tr": "El rey murió en 1715.",
+          "explain": "Mourir en passé simple: il mourut."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a passé composé.",
+          "source": "Il entra et s'assit sans un mot.",
+          "answer": "Il est entré et s'est assis sans un mot.",
+          "accept": [
+            "il est entré et {s'est|il s'est} assis sans un mot"
+          ],
+          "tr": "Entró y se sentó sin decir palabra.",
+          "explain": "Entrer y s'asseoir van con être en los tiempos compuestos."
+        },
+        {
+          "type": "choice",
+          "sentence": "Ils ___ la ville à l'aube.",
+          "options": ["quittèrent", "quittirent", "quitèrent", "quittairent"],
+          "answer": "quittèrent",
+          "tr": "Dejaron la ciudad al amanecer.",
+          "explain": "Verbos en -er en passé simple, ils: -èrent."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Cuál es el infinitivo de «ils surent»?",
+          "options": ["savoir", "suivre", "surer", "sûrir"],
+          "answer": "savoir",
+          "explain": "Savoir en passé simple: il sut, ils surent."
+        },
+        {
+          "type": "choice",
+          "prompt": "En un relato, «quand il eut fini» equivale a…",
+          "options": ["cuando hubo terminado", "cuando terminará", "cuando terminaba", "cuando termine"],
+          "answer": "cuando hubo terminado",
+          "explain": "Passé antérieur: anterioridad inmediata respecto a un passé simple (Quand il eut fini, il partit)."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a passé composé.",
+          "source": "Nous arrivâmes tard et nous dînâmes.",
+          "answer": "Nous sommes arrivés tard et nous avons dîné.",
+          "accept": [
+            "nous sommes {arrivés|arrivées} tard et {nous avons|avons} dîné"
+          ],
+          "tr": "Llegamos tarde y cenamos.",
+          "explain": "Arriver va con être; dîner, con avoir."
+        },
+        {
+          "type": "gap",
+          "sentence": "Lorsqu'il ___ la lettre, il comprit tout.",
+          "options": ["eut lu", "a lu", "lisait", "lira"],
+          "answer": "eut lu",
+          "tr": "Cuando hubo leído la carta, lo comprendió todo.",
+          "explain": "Passé antérieur (eut lu) + passé simple (comprit)."
+        }
+      ]
+    }
+  ]
+}

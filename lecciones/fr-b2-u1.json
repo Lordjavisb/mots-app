@@ -1,0 +1,486 @@
+{
+  "id": "fr-b2-u1",
+  "lang": "fr",
+  "level": "B2",
+  "title": "Matices y registro",
+  "description": "Subjuntivo, voz pasiva y nominalización, gerundio, conectores lógicos, registro formal e hipótesis sobre el pasado.",
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "Le subjonctif",
+      "focus": "Subjuntivo tras voluntad, necesidad y emoción",
+      "intro": "El subjuntivo aparece tras il faut que, vouloir que, souhaiter que, être content que, avoir peur que, bien que, pour que o avant que. Formación: raíz de ils en presente + -e, -es, -e, -ions, -iez, -ent (ils finissent → que je finisse). Irregulares: être (que je sois), avoir (que j'aie), faire (que je fasse), aller (que j'aille), pouvoir (que je puisse), savoir (que je sache). Penser que y croire que en afirmativo rigen indicativo.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en subjuntivo.",
+          "sentence": "Il faut que tu ___ ce dossier avant midi. (finir)",
+          "answer": "finisses",
+          "tr": "Tienes que terminar este expediente antes de mediodía.",
+          "explain": "Il faut que + subjuntivo: que tu finisses."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en subjuntivo.",
+          "sentence": "Je veux que vous ___ à l'heure. (être)",
+          "answer": "soyez",
+          "tr": "Quiero que sean puntuales.",
+          "explain": "Être en subjuntivo: que vous soyez."
+        },
+        {
+          "type": "choice",
+          "sentence": "Bien qu'il ___ malade, il est venu travailler.",
+          "options": ["soit", "est", "était", "sera"],
+          "answer": "soit",
+          "tr": "Aunque está enfermo, ha venido a trabajar.",
+          "explain": "Bien que rige siempre subjuntivo."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en subjuntivo.",
+          "sentence": "Je suis content que tu ___ venir. (pouvoir)",
+          "answer": "puisses",
+          "tr": "Me alegro de que puedas venir.",
+          "explain": "Être content que + subjuntivo; pouvoir → que tu puisses."
+        },
+        {
+          "type": "choice",
+          "sentence": "Je pense qu'il ___ raison.",
+          "options": ["a", "ait", "aurait eu", "eût"],
+          "answer": "a",
+          "tr": "Creo que tiene razón.",
+          "explain": "Penser que en afirmativo rige indicativo. En negativo (je ne pense pas qu'il ait raison) lleva subjuntivo."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a negativo con «je ne pense pas que».",
+          "source": "Je pense qu'il viendra.",
+          "answer": "Je ne pense pas qu'il vienne.",
+          "tr": "No creo que venga.",
+          "explain": "Penser que en negativo rige subjuntivo: qu'il vienne."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo en subjuntivo.",
+          "sentence": "Parle plus fort pour qu'on t'___. (entendre)",
+          "answer": "entende",
+          "tr": "Habla más alto para que te oigan.",
+          "explain": "Pour que + subjuntivo."
+        },
+        {
+          "type": "translate",
+          "prompt": "Es necesario que hagamos un esfuerzo.",
+          "answer": "Il faut que nous fassions un effort.",
+          "accept": [
+            "il {faut|est nécessaire} {que nous fassions|qu'on fasse} un effort"
+          ],
+          "explain": "Faire en subjuntivo: que nous fassions."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "Passif et nominalisation",
+      "focus": "Voz pasiva y nominalización",
+      "intro": "La voz pasiva se forma con être en el tiempo correspondiente + participio, que concuerda con el sujeto: le contrat a été signé par le directeur. En textos formales y titulares es frecuente nominalizar, es decir, sustituir un verbo por un sustantivo: on a annulé le vol → l'annulation du vol.",
+      "exercises": [
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a voz pasiva.",
+          "source": "Le directeur signe le contrat.",
+          "answer": "Le contrat est signé par le directeur.",
+          "tr": "El contrato lo firma el director.",
+          "explain": "Être en el mismo tiempo que el verbo activo (presente) + participio."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a voz pasiva.",
+          "source": "La police a arrêté deux suspects.",
+          "answer": "Deux suspects ont été arrêtés par la police.",
+          "tr": "Dos sospechosos fueron detenidos por la policía.",
+          "explain": "Passé composé pasivo: ont été + participio, que concuerda con suspects."
+        },
+        {
+          "type": "choice",
+          "sentence": "Les résultats ___ publiés la semaine prochaine.",
+          "options": ["seront", "auront", "ont", "sont été"],
+          "answer": "seront",
+          "tr": "Los resultados se publicarán la semana que viene.",
+          "explain": "Pasiva en futuro: seront + participio."
+        },
+        {
+          "type": "match",
+          "prompt": "Empareja cada verbo con su sustantivo.",
+          "pairs": [
+            ["annuler", "l'annulation"],
+            ["augmenter", "l'augmentation"],
+            ["décider", "la décision"],
+            ["livrer", "la livraison"],
+            ["réduire", "la réduction"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Nominaliza la frase como si fuera un titular.",
+          "source": "Le gouvernement réforme les retraites.",
+          "answer": "La réforme des retraites par le gouvernement.",
+          "accept": [
+            "la réforme des retraites{ par le gouvernement|}"
+          ],
+          "tr": "La reforma de las pensiones por parte del Gobierno.",
+          "explain": "Réformer → la réforme; el complemento directo pasa a ir con de: des retraites."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el participio de «reporter».",
+          "sentence": "La réunion a été ___ à lundi.",
+          "answer": "reportée",
+          "tr": "La reunión se ha aplazado al lunes.",
+          "explain": "En pasiva, el participio concuerda con el sujeto: la réunion → reportée."
+        },
+        {
+          "type": "choice",
+          "sentence": "Ce bâtiment ___ construit en 1920.",
+          "options": ["a été", "a", "est été", "avait"],
+          "answer": "a été",
+          "tr": "Este edificio fue construido en 1920.",
+          "explain": "Passé composé pasivo: a été + participio."
+        },
+        {
+          "type": "translate",
+          "prompt": "Han cancelado el vuelo.",
+          "answer": "Le vol a été annulé.",
+          "accept": [
+            "le vol a été annulé",
+            "{on a|ils ont} annulé le vol"
+          ],
+          "explain": "La pasiva con être o la construcción con on equivalen a la pasiva refleja o al plural impersonal español."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Le gérondif",
+      "focus": "Gerundio y participio presente",
+      "intro": "El gérondif (en + participio presente) expresa simultaneidad, modo o condición: il lit en mangeant; c'est en travaillant qu'on progresse. El participio presente sin en es propio del registro escrito y equivale a una relativa o a una causa: les candidats ayant un diplôme… Formación: raíz de nous + -ant (nous faisons → faisant). Irregulares: être → étant, avoir → ayant, savoir → sachant.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Escribe el gérondif de «faire».",
+          "sentence": "Il écoute la radio ___ la cuisine.",
+          "answer": "en faisant",
+          "tr": "Escucha la radio mientras cocina.",
+          "explain": "Gérondif: en + participio presente (faisant)."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con un gérondif.",
+          "source": "Quand je suis sorti du métro, j'ai vu Paul.",
+          "answer": "En sortant du métro, j'ai vu Paul.",
+          "tr": "Al salir del metro, vi a Paul.",
+          "explain": "El gérondif expresa simultaneidad con el verbo principal."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con un gérondif.",
+          "source": "Si tu pars maintenant, tu arriveras à l'heure.",
+          "answer": "En partant maintenant, tu arriveras à l'heure.",
+          "tr": "Si sales ahora, llegarás a tiempo.",
+          "explain": "El gérondif también puede expresar una condición."
+        },
+        {
+          "type": "choice",
+          "sentence": "Les candidats ___ une expérience à l'étranger seront prioritaires.",
+          "options": ["ayant", "en ayant", "avant", "eu"],
+          "answer": "ayant",
+          "tr": "Los candidatos que tengan experiencia en el extranjero tendrán prioridad.",
+          "explain": "Participio presente del registro escrito: ayant = qui ont."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el participio presente de «être».",
+          "sentence": "___ malade, elle n'a pas pu venir.",
+          "answer": "Étant",
+          "tr": "Como estaba enferma, no pudo venir.",
+          "explain": "Étant malade = comme elle était malade (causa)."
+        },
+        {
+          "type": "choice",
+          "sentence": "C'est ___ qu'on devient forgeron.",
+          "options": ["en forgeant", "forgeant", "en forgé", "à forger"],
+          "answer": "en forgeant",
+          "tr": "La práctica hace al maestro (literalmente: forjando se hace uno herrero).",
+          "explain": "Refrán en el que el gérondif expresa el medio."
+        },
+        {
+          "type": "translate",
+          "prompt": "Aprendió francés viendo series.",
+          "answer": "Il a appris le français en regardant des séries.",
+          "accept": [
+            "{il|elle} a appris le français en regardant des séries"
+          ],
+          "explain": "El gérondif expresa el medio: en regardant."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con un participio presente (registro escrito).",
+          "source": "Comme il ne savait pas quoi dire, il est parti.",
+          "answer": "Ne sachant pas quoi dire, il est parti.",
+          "accept": [
+            "ne sachant pas {quoi|que} dire il est parti"
+          ],
+          "tr": "Como no sabía qué decir, se fue.",
+          "explain": "Savoir → sachant. La negación rodea al participio: ne sachant pas."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "Cause, conséquence, concession",
+      "focus": "Conectores lógicos",
+      "intro": "Causa: puisque (ya que, causa conocida), étant donné que, grâce à (con resultado positivo), à cause de (con resultado negativo). Consecuencia: si bien que, c'est pourquoi, par conséquent. Concesión: bien que + subjuntivo, même si + indicativo, malgré + sustantivo.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "___ la grève, les trains sont annulés.",
+          "options": ["À cause de", "Grâce à", "Puisque", "Bien que"],
+          "answer": "À cause de",
+          "tr": "A causa de la huelga, los trenes están cancelados.",
+          "explain": "Causa con resultado negativo + sustantivo: à cause de."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il a réussi ___ ses efforts.",
+          "options": ["grâce à", "à cause de", "malgré que", "puisque"],
+          "answer": "grâce à",
+          "tr": "Lo consiguió gracias a sus esfuerzos.",
+          "explain": "Causa con resultado positivo: grâce à."
+        },
+        {
+          "type": "choice",
+          "sentence": "___il pleuve, nous sortirons.",
+          "options": ["Bien qu'", "Même s'", "Malgré ", "Puisqu'"],
+          "answer": "Bien qu'",
+          "tr": "Aunque llueva, saldremos.",
+          "explain": "Pleuve es subjuntivo: solo encaja con bien que. Même si iría con indicativo (même s'il pleut)."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con «malgré» + sustantivo.",
+          "source": "Bien qu'il fasse froid, ils jouent dehors.",
+          "answer": "Malgré le froid, ils jouent dehors.",
+          "tr": "A pesar del frío, juegan fuera.",
+          "explain": "Malgré va seguido de un sustantivo, no de una oración."
+        },
+        {
+          "type": "gap",
+          "sentence": "Il n'a pas révisé, ___il a raté l'examen.",
+          "options": ["si bien qu'", "bien qu'", "puisqu'", "malgré qu'"],
+          "answer": "si bien qu'",
+          "tr": "No repasó, de modo que suspendió el examen.",
+          "explain": "Si bien que introduce una consecuencia."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Une las frases con «puisque».",
+          "source": "Tu es fatigué. Va te coucher.",
+          "answer": "Puisque tu es fatigué, va te coucher.",
+          "accept": [
+            "puisque tu es fatigué va te coucher",
+            "va te coucher puisque tu es fatigué"
+          ],
+          "tr": "Ya que estás cansado, vete a dormir.",
+          "explain": "Puisque presenta una causa evidente o ya conocida."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["par conséquent", "por consiguiente"],
+            ["néanmoins", "no obstante"],
+            ["étant donné que", "dado que"],
+            ["en dépit de", "a pesar de"],
+            ["c'est pourquoi", "por eso"]
+          ]
+        },
+        {
+          "type": "translate",
+          "prompt": "Aunque es caro, voy a comprarlo.",
+          "answer": "Même si c'est cher, je vais l'acheter.",
+          "accept": [
+            "{même si c'est cher|bien que ce soit cher} je {vais l'acheter|l'achèterai}",
+            "je {vais l'acheter|l'achèterai} {même si c'est cher|bien que ce soit cher}"
+          ],
+          "explain": "Même si + indicativo; bien que + subjuntivo."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Le registre soutenu",
+      "focus": "Registro formal escrito",
+      "intro": "En textos formales se prefieren la inversión en las preguntas (Pourriez-vous… ?), el condicional de cortesía, las construcciones impersonales (il convient de, il est à noter que) y un léxico preciso: effectuer en lugar de faire, obtenir en lugar de avoir, souhaiter en lugar de vouloir.",
+      "exercises": [
+        {
+          "type": "match",
+          "prompt": "Empareja cada verbo corriente con su equivalente formal.",
+          "pairs": [
+            ["avoir (un document)", "obtenir"],
+            ["faire (une démarche)", "effectuer"],
+            ["vouloir", "souhaiter"],
+            ["dire", "indiquer"],
+            ["donner (des informations)", "fournir"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a registro formal con inversión y condicional.",
+          "source": "Est-ce que vous pouvez m'envoyer le devis ?",
+          "answer": "Pourriez-vous m'envoyer le devis ?",
+          "accept": [
+            "{pourriez|pouvez} vous m'envoyer le devis"
+          ],
+          "tr": "¿Podría enviarme el presupuesto?",
+          "explain": "La inversión verbo-sujeto y el condicional elevan el registro."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué fórmula es más adecuada para un informe?",
+          "options": ["Il convient de souligner que…", "Faut dire que…", "En gros…", "Bon, ben…"],
+          "answer": "Il convient de souligner que…",
+          "tr": "Conviene subrayar que…",
+          "explain": "Las otras opciones pertenecen al registro oral coloquial."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye «faire» por un verbo más preciso.",
+          "source": "Nous allons faire une enquête.",
+          "answer": "Nous allons mener une enquête.",
+          "accept": [
+            "nous allons {mener|réaliser|effectuer|conduire} une enquête"
+          ],
+          "tr": "Vamos a llevar a cabo una investigación.",
+          "explain": "Mener une enquête es la colocación más habitual."
+        },
+        {
+          "type": "gap",
+          "sentence": "Je vous saurais gré de bien vouloir me ___ votre réponse avant le 15.",
+          "options": ["faire parvenir", "faire arriver", "rendre", "donner venir"],
+          "answer": "faire parvenir",
+          "tr": "Le agradecería que me hiciera llegar su respuesta antes del día 15.",
+          "explain": "Faire parvenir = hacer llegar; fórmula habitual en cartas formales."
+        },
+        {
+          "type": "translate",
+          "prompt": "Le ruego que disculpe el retraso.",
+          "answer": "Je vous prie de bien vouloir excuser ce retard.",
+          "accept": [
+            "je vous prie {d'excuser|de bien vouloir excuser} {le|ce} retard",
+            "je vous prie de {bien vouloir |}m'excuser {pour le|pour ce|du} retard"
+          ],
+          "explain": "Je vous prie de bien vouloir + infinitivo es una fórmula formal de petición."
+        },
+        {
+          "type": "choice",
+          "sentence": "Veuillez trouver ___ le document demandé.",
+          "options": ["ci-joint", "ci-dessous de", "en joint", "joint à"],
+          "answer": "ci-joint",
+          "tr": "Le adjunto el documento solicitado.",
+          "explain": "Veuillez trouver ci-joint = encontrará adjunto."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con una construcción impersonal (il est… / il convient…).",
+          "source": "On doit noter que les chiffres ont baissé.",
+          "answer": "Il est à noter que les chiffres ont baissé.",
+          "accept": [
+            "il {est à noter|convient de noter|faut noter} que les chiffres ont baissé"
+          ],
+          "tr": "Cabe señalar que las cifras han bajado.",
+          "explain": "Il est à noter que es una construcción impersonal propia de informes."
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "Hypothèses sur le passé",
+      "focus": "Plus-que-parfait y condicional pasado",
+      "intro": "Para una hipótesis sobre el pasado: si + plus-que-parfait, conditionnel passé (si j'avais su, je serais venu). El conditionnel passé se forma con avoir o être en condicional + participio: j'aurais aimé, elle serait partie. También expresa reproche o arrepentimiento: tu aurais dû me prévenir.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en conditionnel passé.",
+          "sentence": "Si j'avais su, je ___. (venir)",
+          "answer": "serais venu",
+          "accept": [
+            "serais {venu|venue}"
+          ],
+          "tr": "Si lo hubiera sabido, habría venido.",
+          "explain": "Venir va con être: je serais venu(e)."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en plus-que-parfait.",
+          "sentence": "Si tu ___ plus tôt, tu aurais eu le train. (partir)",
+          "answer": "étais parti",
+          "accept": [
+            "étais {parti|partie}"
+          ],
+          "tr": "Si hubieras salido antes, habrías cogido el tren.",
+          "explain": "Si + plus-que-parfait; partir va con être."
+        },
+        {
+          "type": "choice",
+          "sentence": "Tu ___ me prévenir !",
+          "options": ["aurais dû", "aurais devoir", "devrais eu", "as dû de"],
+          "answer": "aurais dû",
+          "tr": "¡Deberías haberme avisado!",
+          "explain": "Conditionnel passé de devoir + infinitivo para expresar reproche."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Transfórmala en hipótesis sobre el pasado.",
+          "source": "S'il pleuvait, nous resterions à la maison.",
+          "answer": "S'il avait plu, nous serions restés à la maison.",
+          "accept": [
+            "s'il avait plu {nous serions restés|nous serions restées|on serait restés|on serait resté} à la maison"
+          ],
+          "tr": "Si hubiera llovido, nos habríamos quedado en casa.",
+          "explain": "Si + plus-que-parfait (avait plu) → conditionnel passé (serions restés)."
+        },
+        {
+          "type": "choice",
+          "sentence": "Elle m'a dit qu'elle ___ le rapport la veille.",
+          "options": ["avait terminé", "a terminé", "terminera", "termine"],
+          "answer": "avait terminé",
+          "tr": "Me dijo que había terminado el informe el día anterior.",
+          "explain": "Anterioridad respecto a un pasado: plus-que-parfait."
+        },
+        {
+          "type": "translate",
+          "prompt": "Me habría gustado conocerle.",
+          "answer": "J'aurais aimé le connaître.",
+          "accept": [
+            "j'aurais {aimé|voulu} {le connaître|le connaitre|faire sa connaissance|le rencontrer}"
+          ],
+          "explain": "Conditionnel passé de aimer: j'aurais aimé."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el auxiliar en condicional.",
+          "sentence": "Sans ton aide, nous n'___ jamais réussi. (avoir)",
+          "answer": "aurions",
+          "tr": "Sin tu ayuda, nunca lo habríamos conseguido.",
+          "explain": "Conditionnel passé: nous aurions réussi."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Expresa arrepentimiento con el conditionnel passé de «devoir».",
+          "source": "Je n'ai pas accepté l'offre.",
+          "answer": "J'aurais dû accepter l'offre.",
+          "tr": "Debería haber aceptado la oferta.",
+          "explain": "J'aurais dû + infinitivo = debería haber…"
+        }
+      ]
+    }
+  ]
+}
