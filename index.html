@@ -69,6 +69,46 @@ nav{position:fixed;left:0;right:0;bottom:0;background:var(--surface);border-top:
 .nav{display:flex;max-width:520px;margin:0 auto;height:80px;padding:8px 16px 0}
 .nav button{flex:1;background:none;border:0;display:flex;flex-direction:column;align-items:center;gap:4px;font:600 12px 'Instrument Sans',sans-serif;color:var(--muted);cursor:pointer;min-height:44px}
 .nav button[aria-current="page"]{color:var(--accent)}
+/* Lecciones */
+#view-lessons{--accent:#2F4B8C;--accent-soft:#E6EBF5}
+.u-title{font-family:'Fraunces',Georgia,serif;font-size:24px;font-weight:600;margin:6px 0 4px}
+.lesson-list{margin-top:14px;display:flex;flex-direction:column;gap:10px}
+.lesson-btn{display:flex;align-items:center;gap:14px;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px 16px;cursor:pointer;color:var(--ink);font:inherit}
+.l-num{flex:none;width:36px;height:36px;border-radius:50%;background:var(--accent-soft);color:var(--accent);display:flex;align-items:center;justify-content:center;font-weight:600}
+.l-txt{display:flex;flex-direction:column;gap:2px;min-width:0}
+.l-title{font-family:'Fraunces',Georgia,serif;font-size:18px;font-weight:600}
+.l-top{display:flex;justify-content:space-between;align-items:center;margin-top:6px}
+.btn-link{background:none;border:0;color:var(--accent);font:600 15px 'Instrument Sans',sans-serif;cursor:pointer;padding:10px 0;min-height:44px}
+.lesson-intro{font-size:16px;line-height:1.55;margin:10px 0 0}
+.l-label{font-size:15px;font-weight:600;margin:0}
+.l-sentence{font-family:'Fraunces',Georgia,serif;font-size:22px;line-height:1.45;margin:12px 0 0}
+.l-sentence strong{color:var(--accent)}
+.blank{display:inline-block;min-width:64px;border-bottom:2px solid var(--accent);height:1em;vertical-align:baseline}
+.l-source{font-size:18px;line-height:1.45;margin:12px 0 0;padding:12px 14px;background:var(--ground);border-radius:12px}
+.opts{margin-top:14px;display:flex;flex-direction:column;gap:8px}
+.opt{width:100%;min-height:48px;text-align:left;padding:10px 14px;border:1px solid var(--chip-line);border-radius:14px;background:var(--surface);color:var(--ink);font:500 16px 'Instrument Sans',sans-serif;cursor:pointer}
+.opt[aria-pressed="true"]{border:2px solid var(--accent);padding:9px 13px}
+.opt.right{border:2px solid #2E6B4F;background:#E3EEE8;padding:9px 13px}
+.opt.wrong{border:2px solid #9A3412;background:#FBEAE3;padding:9px 13px}
+.l-input{box-sizing:border-box;width:100%;height:52px;margin-top:8px;border:1px solid #D8CFBD;border-radius:14px;background:var(--surface);padding:0 14px;font:500 18px 'Instrument Sans',sans-serif;color:var(--ink)}
+.l-input:disabled{background:var(--ground);color:var(--ink)}
+.acc{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.acc button{min-width:40px;height:40px;border:1px solid var(--chip-line);border-radius:10px;background:var(--surface);font:500 17px 'Instrument Sans',sans-serif;color:var(--ink);cursor:pointer}
+.fb{margin-top:14px;padding:12px 14px;border-radius:14px;font-size:15px;line-height:1.45}
+.fb.ok{background:#E3EEE8;color:#1F4A36}
+.fb.warn{background:#FBF1DC;color:#6B4600}
+.fb.ko{background:#FBEAE3;color:#7C2D12}
+.fb strong{display:block}
+.fb .ans{margin-top:6px}
+.fb .why{margin-top:6px;color:var(--ink)}
+.match{margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mcol{display:flex;flex-direction:column;gap:8px}
+.mbtn{min-height:52px;padding:8px 10px;border:1px solid var(--chip-line);border-radius:14px;background:var(--surface);color:var(--ink);font:500 15px 'Instrument Sans',sans-serif;cursor:pointer;text-align:center}
+.mbtn.sel{border:2px solid var(--accent);padding:7px 9px}
+.mbtn.bad{border:2px solid #9A3412;background:#FBEAE3;padding:7px 9px}
+.mbtn.done{background:var(--accent-soft);color:var(--muted);border-color:transparent;cursor:default}
+.review-list{margin:8px 0 0;padding-left:18px;font-size:15px;line-height:1.5}
+.review-list li{margin-top:8px}
 .hidden{display:none !important}
 button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
 </style>
@@ -112,6 +152,11 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
     <h2>Repaso</h2>
     <div id="reviewBox" style="margin-top:14px"></div>
   </section>
+
+  <section id="view-lessons" class="hidden" aria-label="Lecciones">
+    <h2>Lecciones</h2>
+    <div id="lessonBox" style="margin-top:8px"></div>
+  </section>
 </div>
 
 <nav aria-label="Principal">
@@ -122,11 +167,15 @@ button:focus-visible,input:focus-visible{outline:3px solid var(--accent);outline
     </button>
     <button type="button" data-view="list">
       <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13"/><path d="M3 6h.01M3 12h.01M3 18h.01"/></svg>
-      Lista (<span id="count">0</span>)
+      <span>Lista (<span id="count">0</span>)</span>
     </button>
     <button type="button" data-view="review">
       <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="7" width="13" height="13" rx="2"/><path d="M7 4h12a2 2 0 0 1 2 2v12"/></svg>
       Repaso
+    </button>
+    <button type="button" data-view="lessons">
+      <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M4 5a2 2 0 0 1 2-2h14v15H6a2 2 0 0 0-2 2V5z"/><path d="M4 20a2 2 0 0 0 2 1h14v-3"/></svg>
+      Lecciones
     </button>
   </div>
 </nav>
@@ -561,12 +610,14 @@ function setLang(code) {
 }
 function setView(v) {
   S.view = v;
-  ['search', 'list', 'review'].forEach(n => $('#view-' + n).classList.toggle('hidden', n !== v));
+  ['search', 'list', 'review', 'lessons'].forEach(n => $('#view-' + n).classList.toggle('hidden', n !== v));
+  document.querySelector('.seg').classList.toggle('hidden', v === 'lessons');
   document.querySelectorAll('nav [data-view]').forEach(b => {
     if (b.dataset.view === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current');
   });
   if (v === 'list') renderList();
   if (v === 'review') startReview();
+  if (v === 'lessons') showLessons();
   window.scrollTo(0, 0);
 }
 
@@ -597,6 +648,295 @@ $('#reviewBox').addEventListener('click', e => {
   if (a === 'reveal') { S.revealed = true; drawReview(); }
   else if (a === 'know') answer(b.dataset.ok === '1');
   else if (a === 'again') startReview();
+});
+
+/* ---------- Lecciones ---------- */
+const UNIT_URL = 'lecciones/fr-a2-u1.json';
+const ACCENTS = ['é', 'è', 'ê', 'ë', 'à', 'â', 'ç', 'ù', 'û', 'î', 'ï', 'ô', 'œ'];
+const LABELS = {
+  choice: 'Elige la opción correcta.',
+  gap: 'Completa el hueco.',
+  translate: 'Traduce al francés.',
+  reformulate: 'Reformula la frase.',
+  match: 'Toca una expresión en francés y después su traducción.'
+};
+const L = { unit: null, phase: 'list', li: -1, ei: -1, choice: null, order: null, result: null, typed: '', match: null, mistakes: [] };
+
+/* Normalización para corregir: sin mayúsculas, puntuación ni guiones; apóstrofos unificados */
+const normFr = s => String(s).toLowerCase()
+  .replace(/[’‘`´]/g, "'")
+  .replace(/[«»"“”]/g, ' ')
+  .replace(/[-‐–—]/g, ' ')
+  .replace(/[.,;:!?¡¿…()]/g, ' ')
+  .replace(/\s*'\s*/g, "'")
+  .replace(/\s+/g, ' ')
+  .trim();
+const stripAcc = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/œ/g, 'oe');
+/* Patrones de respuesta: {a|b|} = alternativas (la vacía hace el tramo opcional) */
+function patRegex(p, strip) {
+  let s = normFr(p);
+  if (strip) s = stripAcc(s);
+  let out = '';
+  for (const ch of s) {
+    if (ch === '{') out += '(?:';
+    else if (ch === '}') out += ')';
+    else if (ch === '|') out += '|';
+    else out += ch.replace(/[.*+?^$()[\]\\\/]/g, '\\$&');
+  }
+  return new RegExp('^' + out + '$');
+}
+function grade(value, ex) {
+  const pats = [ex.answer, ...(ex.accept || [])];
+  const n = normFr(value);
+  if (pats.some(p => patRegex(p, false).test(n))) return 'ok';
+  const ns = stripAcc(n);
+  if (pats.some(p => patRegex(p, true).test(ns))) return 'accents';
+  return 'ko';
+}
+
+const curLesson = () => L.unit.lessons[L.li];
+const curEx = () => curLesson().exercises[L.ei];
+const usesOptions = ex => ex.type === 'choice' || (ex.type === 'gap' && Array.isArray(ex.options));
+
+function blankify(sentence, answer) {
+  const chunks = sentence.split('___');
+  const gaps = chunks.length - 1;
+  const parts = answer != null ? String(answer).split(' … ') : null;
+  return chunks.map((chunk, idx) => {
+    let html = esc(chunk);
+    if (idx < gaps) {
+      if (parts) {
+        const fill = parts.length === gaps ? parts[idx] : (idx === 0 ? answer : '');
+        html += `<strong>${esc(fill)}</strong>`;
+      } else {
+        html += '<span class="blank" role="img" aria-label="hueco"></span>';
+      }
+    }
+    return html;
+  }).join('');
+}
+
+async function showLessons() {
+  const box = $('#lessonBox');
+  if (!L.unit) {
+    box.innerHTML = '<p class="msg">Cargando la unidad…</p>';
+    try {
+      const r = await fetch(UNIT_URL);
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      L.unit = await r.json();
+    } catch (err) {
+      box.innerHTML = `<p class="msg">No se pudo cargar la unidad (${esc(err.message)}).</p>`;
+      return;
+    }
+  }
+  renderLessons();
+}
+
+function setupExercise() {
+  const ex = curEx();
+  L.choice = null;
+  L.result = null;
+  L.typed = '';
+  L.order = usesOptions(ex) ? shuffle([...ex.options]) : null;
+  L.match = ex.type === 'match'
+    ? { left: shuffle(ex.pairs.map(p => p[0])), right: shuffle(ex.pairs.map(p => p[1])), map: Object.fromEntries(ex.pairs), done: new Set(), sel: null, bad: null, errors: 0 }
+    : null;
+}
+function nextExercise() {
+  L.ei++;
+  if (L.ei >= curLesson().exercises.length) L.phase = 'end';
+  else { L.phase = 'ex'; setupExercise(); }
+  renderLessons();
+  window.scrollTo(0, 0);
+}
+
+function lessonTop() {
+  const counter = L.phase === 'ex' ? `${L.ei + 1} / ${curLesson().exercises.length}` : '';
+  return `<div class="l-top"><button type="button" class="btn-link" data-act="exit">← Unidad</button><span class="tag">${counter}</span></div>`;
+}
+function optionsHtml(ex, checked) {
+  return `<div class="opts" role="group" aria-label="Opciones">${L.order.map((o, i) => {
+    let cls = 'opt';
+    if (checked && o === ex.answer) cls += ' right';
+    else if (checked && o === L.choice) cls += ' wrong';
+    return `<button type="button" class="${cls}" data-opt="${i}" aria-pressed="${L.choice === o}" lang="fr" ${checked ? 'disabled' : ''}>${esc(o)}</button>`;
+  }).join('')}</div>`;
+}
+function inputHtml(checked) {
+  return `<form data-form="answer" autocomplete="off">
+    <label class="lbl" for="lin">Tu respuesta</label>
+    <input id="lin" class="l-input" type="text" lang="fr" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="done" value="${esc(L.typed)}" ${checked ? 'disabled' : ''}>
+    ${checked ? '' : `<div class="acc" role="group" aria-label="Letras francesas">${ACCENTS.map(c => `<button type="button" data-acc="${c}" aria-label="Insertar ${c}">${c}</button>`).join('')}</div>`}
+  </form>`;
+}
+function matchHtml() {
+  const m = L.match;
+  const doneEs = new Set([...m.done].map(fr => m.map[fr]));
+  const left = m.left.map(fr => `<button type="button" class="mbtn${m.done.has(fr) ? ' done' : ''}${m.sel === fr ? ' sel' : ''}" data-ml="${esc(fr)}" lang="fr" aria-pressed="${m.sel === fr}" ${m.done.has(fr) ? 'disabled' : ''}>${esc(fr)}</button>`).join('');
+  const right = m.right.map(es => `<button type="button" class="mbtn${doneEs.has(es) ? ' done' : ''}${m.bad === es ? ' bad' : ''}" data-mr="${esc(es)}" ${doneEs.has(es) ? 'disabled' : ''}>${esc(es)}</button>`).join('');
+  return `<div class="match"><div class="mcol">${left}</div><div class="mcol">${right}</div></div>`;
+}
+function exerciseHtml(ex) {
+  const checked = L.result !== null;
+  const label = ex.type === 'translate' ? LABELS.translate : (ex.prompt || LABELS[ex.type]);
+  let html = `<p class="l-label">${esc(label)}</p>`;
+  if (ex.sentence) html += `<p class="l-sentence" lang="fr">${blankify(ex.sentence, checked ? ex.answer : null)}</p>`;
+  if (ex.type === 'translate') html += `<p class="l-source">${esc(ex.prompt)}</p>`;
+  if (ex.type === 'reformulate') html += `<p class="l-source" lang="fr">${esc(ex.source)}</p>`;
+  if (ex.type === 'match') return html + matchHtml();
+  if (usesOptions(ex)) return html + optionsHtml(ex, checked);
+  return html + inputHtml(checked);
+}
+function feedbackHtml(ex) {
+  const r = L.result;
+  if (r === null) return '';
+  const cls = r === 'ok' ? 'ok' : (r === 'ko' ? 'ko' : 'warn');
+  let title;
+  if (r === 'ok') title = 'Correcto.';
+  else if (r === 'accents') title = 'Correcto, pero revisa los acentos.';
+  else if (r === 'partial') title = `Completado con ${L.match.errors} ${L.match.errors === 1 ? 'fallo' : 'fallos'}.`;
+  else title = 'No es correcto.';
+  let html = `<div class="fb ${cls}" role="status"><strong>${title}</strong>`;
+  if (ex.type !== 'match' && (r !== 'ok' || ex.type === 'translate' || ex.type === 'reformulate')) {
+    html += `<div class="ans">${r === 'ok' ? 'Respuesta modelo' : 'Respuesta'}: <span lang="fr">${esc(ex.answer)}</span></div>`;
+  }
+  if (ex.explain) html += `<div class="why">${esc(ex.explain)}</div>`;
+  return html + '</div>';
+}
+function actionHtml(ex) {
+  if (L.result !== null) {
+    const last = L.ei === curLesson().exercises.length - 1;
+    return `<button type="button" class="btn-primary" data-act="next">${last ? 'Terminar' : 'Continuar'}</button>`;
+  }
+  if (ex.type === 'match') return '';
+  return '<button type="button" class="btn-primary" data-act="check">Comprobar</button>';
+}
+function reviewItem(m) {
+  const ex = m.ex;
+  if (ex.type === 'match') return `<li>${ex.pairs.map(p => `<span lang="fr">${esc(p[0])}</span> = ${esc(p[1])}`).join(' · ')}</li>`;
+  let ctx;
+  if (ex.sentence) ctx = `<span lang="fr">${blankify(ex.sentence, ex.answer)}</span>`;
+  else if (ex.type === 'translate') ctx = `${esc(ex.prompt)} → <strong lang="fr">${esc(ex.answer)}</strong>`;
+  else if (ex.type === 'reformulate') ctx = `<span lang="fr">${esc(ex.source)}</span> → <strong lang="fr">${esc(ex.answer)}</strong>`;
+  else ctx = `${esc(ex.prompt || '')} → <strong lang="fr">${esc(ex.answer)}</strong>`;
+  const given = m.given ? `<div class="sub">Tu respuesta: <span lang="fr">${esc(m.given)}</span></div>` : '';
+  return `<li>${ctx}${given}</li>`;
+}
+function renderLessons() {
+  const box = $('#lessonBox');
+  const u = L.unit;
+  if (!u) return;
+  if (L.phase === 'list') {
+    box.innerHTML = `
+      <div class="tag">Francés · ${esc(u.level)}</div>
+      <h3 class="u-title">${esc(u.title)}</h3>
+      <p class="sub" style="margin:0">${esc(u.description)}</p>
+      <div class="lesson-list">${u.lessons.map((l, i) => `
+        <button type="button" class="lesson-btn" data-lesson="${i}">
+          <span class="l-num">${i + 1}</span>
+          <span class="l-txt"><span class="l-title" lang="fr">${esc(l.title)}</span><span class="sub">${esc(l.focus)} · ${l.exercises.length} ejercicios</span></span>
+        </button>`).join('')}</div>`;
+    return;
+  }
+  const l = curLesson();
+  if (L.phase === 'intro') {
+    box.innerHTML = `${lessonTop()}
+      <article class="card">
+        <div class="kicker" style="margin-top:0">${esc(l.focus)}</div>
+        <h3 class="u-title" lang="fr">${esc(l.title)}</h3>
+        <p class="lesson-intro">${esc(l.intro)}</p>
+        <button type="button" class="btn-primary" data-act="begin">Empezar</button>
+      </article>`;
+    return;
+  }
+  if (L.phase === 'end') {
+    box.innerHTML = `${lessonTop()}
+      <article class="card">
+        <h3 class="u-title" style="margin-top:0">Lección terminada</h3>
+        ${L.mistakes.length
+          ? `<p class="sub" style="margin:0">Conviene repasar estos puntos:</p><ul class="review-list">${L.mistakes.map(reviewItem).join('')}</ul>`
+          : '<p class="sub" style="margin:0">No hay puntos pendientes de repaso en esta lección.</p>'}
+        <div class="actions">
+          <button type="button" class="btn-ghost" data-act="exit">Lecciones</button>
+          <button type="button" class="btn-primary" data-act="restart">Repetir</button>
+        </div>
+      </article>`;
+    return;
+  }
+  const ex = curEx();
+  box.innerHTML = `${lessonTop()}<article class="card">${exerciseHtml(ex)}${feedbackHtml(ex)}${actionHtml(ex)}</article>`;
+}
+
+function checkAnswer() {
+  const ex = curEx();
+  if (L.result !== null || ex.type === 'match') return;
+  if (usesOptions(ex)) {
+    if (L.choice === null) return;
+    L.result = L.choice === ex.answer ? 'ok' : 'ko';
+    if (L.result !== 'ok') L.mistakes.push({ ex, given: L.choice });
+  } else {
+    const inp = $('#lin');
+    const v = inp ? inp.value : '';
+    if (!v.trim()) { if (inp) inp.focus(); return; }
+    L.typed = v;
+    L.result = grade(v, ex);
+    if (L.result !== 'ok') L.mistakes.push({ ex, given: v });
+  }
+  renderLessons();
+}
+function matchPick(side, value) {
+  const m = L.match;
+  if (!m || L.result !== null) return;
+  if (side === 'l') {
+    m.sel = m.sel === value ? null : value;
+    m.bad = null;
+    renderLessons();
+    return;
+  }
+  if (!m.sel) return;
+  if (m.map[m.sel] === value) {
+    m.done.add(m.sel);
+    m.sel = null;
+    m.bad = null;
+    if (m.done.size === m.left.length) {
+      L.result = m.errors ? 'partial' : 'ok';
+      if (m.errors) L.mistakes.push({ ex: curEx(), given: null });
+    }
+  } else {
+    m.errors++;
+    m.bad = value;
+    setTimeout(() => { if (L.match === m && m.bad === value) { m.bad = null; renderLessons(); } }, 700);
+  }
+  renderLessons();
+}
+function insertAccent(ch) {
+  const inp = $('#lin');
+  if (!inp || inp.disabled) return;
+  const s = inp.selectionStart ?? inp.value.length;
+  const e = inp.selectionEnd ?? inp.value.length;
+  inp.value = inp.value.slice(0, s) + ch + inp.value.slice(e);
+  inp.focus();
+  inp.setSelectionRange(s + ch.length, s + ch.length);
+}
+
+/* Evita que las teclas de acentos quiten el foco al campo (y cierren el teclado) */
+['pointerdown', 'mousedown'].forEach(evt => $('#lessonBox').addEventListener(evt, e => {
+  if (e.target.closest('[data-acc]')) e.preventDefault();
+}));
+$('#lessonBox').addEventListener('submit', e => { e.preventDefault(); checkAnswer(); });
+$('#lessonBox').addEventListener('click', e => {
+  const t = e.target.closest('button');
+  if (!t) return;
+  if (t.dataset.lesson !== undefined) { L.li = +t.dataset.lesson; L.phase = 'intro'; L.mistakes = []; renderLessons(); window.scrollTo(0, 0); return; }
+  if (t.dataset.acc) { insertAccent(t.dataset.acc); return; }
+  if (t.dataset.opt !== undefined) { if (L.result === null) { L.choice = L.order[+t.dataset.opt]; renderLessons(); } return; }
+  if (t.dataset.ml !== undefined) { matchPick('l', t.dataset.ml); return; }
+  if (t.dataset.mr !== undefined) { matchPick('r', t.dataset.mr); return; }
+  const act = t.dataset.act;
+  if (act === 'exit') { L.phase = 'list'; renderLessons(); window.scrollTo(0, 0); }
+  else if (act === 'begin' || act === 'restart') { L.mistakes = []; L.ei = -1; nextExercise(); }
+  else if (act === 'check') checkAnswer();
+  else if (act === 'next') nextExercise();
 });
 
 /* ---------- Arranque ---------- */

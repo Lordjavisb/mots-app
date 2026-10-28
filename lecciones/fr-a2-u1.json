@@ -1,0 +1,467 @@
+{
+  "id": "fr-a2-u1",
+  "lang": "fr",
+  "level": "A2",
+  "title": "Vida diaria y trabajo",
+  "description": "Rutinas, oficina, citas, contar el día, correos profesionales y compras.",
+  "lessons": [
+    {
+      "id": "l1",
+      "title": "La routine du matin",
+      "focus": "Verbos pronominales en presente",
+      "intro": "Los verbos pronominales llevan un pronombre que concuerda con el sujeto: je me, tu te, il/elle se, nous nous, vous vous, ils/elles se. En negativo, ne va delante del pronombre: je ne me lève pas. En imperativo afirmativo, el pronombre pasa detrás del verbo: lève-toi.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Le matin, je ___ à sept heures. (se réveiller)",
+          "answer": "me réveille",
+          "explain": "Con je, el pronombre reflexivo es me: je me réveille."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le matin, ___ avant de partir.",
+          "options": ["nous habillons", "nous nous habillons", "s'habillons", "nous habille"],
+          "answer": "nous nous habillons",
+          "explain": "Con nous, el pronombre se repite: nous nous habillons."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["se réveiller", "despertarse"],
+            ["se coucher", "acostarse"],
+            ["se brosser les dents", "lavarse los dientes"],
+            ["se dépêcher", "darse prisa"],
+            ["s'habiller", "vestirse"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Je me lève tôt le dimanche.",
+          "answer": "Je ne me lève pas tôt le dimanche.",
+          "explain": "Ne va delante del pronombre reflexivo y pas detrás del verbo."
+        },
+        {
+          "type": "gap",
+          "sentence": "Tu ___ à quelle heure le soir ?",
+          "options": ["te couches", "se couche", "couches", "te couche"],
+          "answer": "te couches",
+          "explain": "Con tu: pronombre te y terminación -es."
+        },
+        {
+          "type": "translate",
+          "prompt": "Me ducho y después desayuno.",
+          "answer": "Je me douche et après je prends le petit-déjeuner.",
+          "accept": [
+            "je me douche {et |}{après|ensuite|puis} je prends {le|mon} petit déjeuner"
+          ],
+          "explain": "Desayunar se dice prendre le petit-déjeuner. En Francia, déjeuner es comer al mediodía."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a imperativo (tú).",
+          "source": "Tu te dépêches.",
+          "answer": "Dépêche-toi !",
+          "explain": "En imperativo afirmativo, te pasa detrás del verbo como toi, unido con guion. Los verbos en -er pierden la -s: dépêche."
+        },
+        {
+          "type": "translate",
+          "prompt": "Normalmente me acuesto tarde.",
+          "answer": "D'habitude, je me couche tard.",
+          "accept": [
+            "{d'habitude|normalement|en général|généralement} je me couche tard",
+            "je me couche {d'habitude|normalement|en général|généralement} tard",
+            "je me couche tard {d'habitude|normalement|en général|généralement}"
+          ],
+          "explain": "D'habitude es la forma más natural de decir «normalmente» al hablar de costumbres."
+        }
+      ]
+    },
+    {
+      "id": "l2",
+      "title": "Au bureau",
+      "focus": "Verbos irregulares y être en train de",
+      "intro": "Para decir que algo está ocurriendo en este momento se usa être en train de + infinitivo: je suis en train de travailler. Repasa también tres verbos muy frecuentes en el trabajo: vouloir (je veux, il veut), pouvoir (je peux, nous pouvons) y devoir (je dois, nous devons).",
+      "exercises": [
+        {
+          "type": "match",
+          "pairs": [
+            ["une réunion", "una reunión"],
+            ["un collègue", "un compañero de trabajo"],
+            ["un congé", "unos días libres"],
+            ["une augmentation", "un aumento de sueldo"],
+            ["un délai", "un plazo"]
+          ]
+        },
+        {
+          "type": "choice",
+          "sentence": "Je ne peux pas te parler, je suis ___ préparer la présentation.",
+          "options": ["en train de", "en train à", "en cours de", "sur le point à"],
+          "answer": "en train de",
+          "explain": "Être en train de + infinitivo expresa una acción en curso."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Mon chef ___ le rapport avant vendredi. (vouloir)",
+          "answer": "veut",
+          "explain": "Vouloir: je veux, tu veux, il veut."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Nous ___ finir ce projet ce mois-ci. (devoir)",
+          "answer": "devons",
+          "explain": "Devoir: je dois, tu dois, il doit, nous devons, vous devez, ils doivent."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Reformula con «être en train de».",
+          "source": "Elle écrit un courriel.",
+          "answer": "Elle est en train d'écrire un courriel.",
+          "accept": [
+            "elle est en train d'écrire un {courriel|e mail|mail|email|message}"
+          ],
+          "explain": "Delante de vocal, de se convierte en d': en train d'écrire."
+        },
+        {
+          "type": "translate",
+          "prompt": "Trabajo en esta empresa desde hace tres años.",
+          "answer": "Je travaille dans cette entreprise depuis trois ans.",
+          "accept": [
+            "je travaille {dans|pour} cette {entreprise|société|boîte} depuis {trois|3} ans",
+            "{ça fait|cela fait|il y a} {trois|3} ans que je travaille {dans|pour} cette {entreprise|société|boîte}"
+          ],
+          "explain": "Para una acción que empezó en el pasado y continúa, el francés usa el presente con depuis («desde hace»)."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le directeur est absent : la réunion est ___ à jeudi.",
+          "options": ["reportée", "rapportée", "emportée", "apportée"],
+          "answer": "reportée",
+          "explain": "Reporter significa aplazar. Rapporter significa devolver o informar; es un falso amigo frecuente."
+        },
+        {
+          "type": "gap",
+          "sentence": "Tu peux m'envoyer le document ___ midi ?",
+          "options": ["avant", "devant", "depuis", "pendant"],
+          "answer": "avant",
+          "explain": "Avant es «antes de» (tiempo); devant es «delante de» (lugar)."
+        }
+      ]
+    },
+    {
+      "id": "l3",
+      "title": "Rendez-vous et projets",
+      "focus": "Futur proche, horarios y citas",
+      "intro": "El futur proche se forma con aller en presente + infinitivo: je vais appeler, nous allons partir. En negativo, la negación rodea a aller: je ne vais pas venir. Para horarios se usa de… à…: de 15 h à 16 h.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Escribe el futur proche del verbo.",
+          "sentence": "Demain, nous ___ le client. (appeler)",
+          "answer": "allons appeler",
+          "explain": "Aller en presente (nous allons) + infinitivo."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a futur proche.",
+          "source": "Ils prennent le train de 8 h.",
+          "answer": "Ils vont prendre le train de 8 h.",
+          "accept": [
+            "ils vont prendre le train de {8 h|8h|huit heures}"
+          ],
+          "explain": "Ils vont + infinitivo: ils vont prendre."
+        },
+        {
+          "type": "choice",
+          "sentence": "Le rendez-vous est ___ 15 h ___ 16 h.",
+          "options": ["de … à", "entre … à", "depuis … jusqu'", "à … de"],
+          "answer": "de … à",
+          "explain": "Para un intervalo horario: de… à… (o entre… et…)."
+        },
+        {
+          "type": "translate",
+          "prompt": "¿Te va bien el martes por la mañana?",
+          "answer": "Mardi matin, ça te va ?",
+          "accept": [
+            "{est ce que |}mardi matin {ça|cela} te {va|convient}",
+            "{est ce que |}{ça|cela} te {va|convient} mardi matin",
+            "{mardi matin |}c'est bon pour toi{ mardi matin|}"
+          ],
+          "explain": "Ça te va ? es la forma habitual de preguntar si algo le viene bien a alguien."
+        },
+        {
+          "type": "choice",
+          "sentence": "Désolé, je ne suis pas ___ le 12, j'ai déjà une réunion.",
+          "options": ["disponible", "libre de", "occupé à", "possible"],
+          "answer": "disponible",
+          "explain": "Être disponible es la forma estándar en contexto profesional."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["prendre rendez-vous", "pedir cita"],
+            ["annuler", "cancelar"],
+            ["reporter", "aplazar"],
+            ["confirmer", "confirmar"],
+            ["être en retard", "llegar tarde"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Responde en negativo usando el futur proche.",
+          "source": "Tu vas venir à la réunion ?",
+          "answer": "Non, je ne vais pas venir à la réunion.",
+          "accept": [
+            "{non |}je ne vais pas venir{ à la réunion|}",
+            "{non |}je ne vais pas y venir"
+          ],
+          "explain": "En el futur proche, la negación rodea a aller: je ne vais pas venir."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa con la preposición adecuada.",
+          "sentence": "On se retrouve ___ la gare à 18 h ? (delante de)",
+          "answer": "devant",
+          "explain": "Devant = delante de (lugar)."
+        }
+      ]
+    },
+    {
+      "id": "l4",
+      "title": "Raconter sa journée",
+      "focus": "Passé composé con avoir y être",
+      "intro": "La mayoría de verbos forman el passé composé con avoir: j'ai fini. Usan être los verbos de movimiento y cambio de estado (aller, venir, arriver, partir, sortir, rentrer, descendre…) y todos los pronominales. Con être, el participio concuerda con el sujeto: elle est arrivée, ils se sont levés. En negativo, ne… pas rodea al auxiliar: je n'ai pas fini.",
+      "exercises": [
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en passé composé.",
+          "sentence": "Hier, nous ___ le rapport à 19 h. (finir)",
+          "answer": "avons fini",
+          "explain": "Finir va con avoir: nous avons fini."
+        },
+        {
+          "type": "gap",
+          "prompt": "Escribe el verbo en passé composé.",
+          "sentence": "Ce matin, elle ___ en retard. (arriver)",
+          "answer": "est arrivée",
+          "explain": "Arriver va con être y el participio concuerda con el sujeto femenino: arrivée."
+        },
+        {
+          "type": "choice",
+          "sentence": "Nous ___ au bureau à pied.",
+          "options": ["sommes allés", "avons allé", "sommes allé", "avons allés"],
+          "answer": "sommes allés",
+          "explain": "Aller va con être; el participio concuerda en plural: allés."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a passé composé (habla un hombre).",
+          "source": "Je prends le métro et je descends à Châtelet.",
+          "answer": "J'ai pris le métro et je suis descendu à Châtelet.",
+          "accept": [
+            "j'ai pris le métro et {je suis|suis} descendu à châtelet"
+          ],
+          "explain": "Prendre va con avoir (pris); descendre, verbo de movimiento, con être (descendu)."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo a passé composé.",
+          "source": "Ils se lèvent à six heures.",
+          "answer": "Ils se sont levés à six heures.",
+          "accept": [
+            "ils se sont levés à {six heures|6 h|6h}"
+          ],
+          "explain": "Los verbos pronominales van con être y concuerdan: ils se sont levés."
+        },
+        {
+          "type": "translate",
+          "prompt": "No he tenido tiempo de comer.",
+          "answer": "Je n'ai pas eu le temps de manger.",
+          "accept": [
+            "je n'ai pas eu le temps de {manger|déjeuner}"
+          ],
+          "explain": "Avoir le temps de + infinitivo. Para la comida del mediodía, déjeuner es lo más natural."
+        },
+        {
+          "type": "choice",
+          "sentence": "La réunion ___ deux heures.",
+          "options": ["a duré", "est duré", "est durée", "a durée"],
+          "answer": "a duré",
+          "explain": "Durer va con avoir y, con avoir, el participio no concuerda con el sujeto."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Elle est rentrée tard.",
+          "answer": "Elle n'est pas rentrée tard.",
+          "explain": "En los tiempos compuestos, ne… pas rodea al auxiliar."
+        },
+        {
+          "type": "translate",
+          "prompt": "¿A qué hora saliste de la oficina? (tú)",
+          "answer": "À quelle heure est-ce que tu es sorti du bureau ?",
+          "accept": [
+            "à quelle heure {est ce que tu es|tu es|es tu} {sorti|sortie|parti|partie} du bureau",
+            "tu es {sorti|sortie|parti|partie} du bureau à quelle heure"
+          ],
+          "explain": "Sortir va con être. Si te diriges a una mujer: sortie."
+        }
+      ]
+    },
+    {
+      "id": "l5",
+      "title": "Courriels et téléphone",
+      "focus": "Registro formal y pronombres complemento",
+      "intro": "En el trabajo se trata de vous a clientes y superiores. Los pronombres de complemento directo (le, la, les) e indirecto (lui, leur) van delante del verbo. Si aparecen juntos, el orden es le/la/les + lui/leur: je le lui envoie. En los tiempos compuestos, delante del auxiliar: je l'ai reçu.",
+      "exercises": [
+        {
+          "type": "choice",
+          "prompt": "¿Qué saludo usarías para escribir a un cliente al que no conoces?",
+          "options": ["Salut,", "Madame, Monsieur,", "Coucou,", "Cher ami,"],
+          "answer": "Madame, Monsieur,",
+          "explain": "Madame, Monsieur, es el saludo formal cuando no se conoce al destinatario."
+        },
+        {
+          "type": "choice",
+          "prompt": "¿Qué despedida es adecuada en un correo profesional?",
+          "options": ["Bisous", "À plus", "Cordialement", "Ciao"],
+          "answer": "Cordialement",
+          "explain": "Cordialement o Bien cordialement son las despedidas estándar en correos profesionales."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye los complementos por pronombres.",
+          "source": "J'envoie le contrat au client.",
+          "answer": "Je le lui envoie.",
+          "explain": "Le contrat → le; au client → lui. Orden: le antes de lui."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por un pronombre.",
+          "source": "Je téléphone à Mme Dupont demain.",
+          "answer": "Je lui téléphone demain.",
+          "explain": "Téléphoner à quelqu'un lleva complemento indirecto: lui."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por un pronombre.",
+          "source": "Nous avons reçu votre message.",
+          "answer": "Nous l'avons reçu.",
+          "explain": "En passé composé, el pronombre va delante del auxiliar: nous l'avons reçu."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pásalo al tratamiento de «vous».",
+          "source": "Tu peux me rappeler cet après-midi ?",
+          "answer": "Vous pouvez me rappeler cet après-midi ?",
+          "accept": [
+            "{vous pouvez|pouvez vous|est ce que vous pouvez|pourriez vous|vous pourriez} me rappeler cet après midi"
+          ],
+          "explain": "Pouvoir con vous: vous pouvez. Pourriez-vous es todavía más cortés."
+        },
+        {
+          "type": "translate",
+          "prompt": "Le llamo de parte de la señora Martin.",
+          "answer": "Je vous appelle de la part de Mme Martin.",
+          "accept": [
+            "je vous appelle de la part de {mme|madame} martin"
+          ],
+          "explain": "De la part de = de parte de. Mme es la abreviatura de Madame."
+        },
+        {
+          "type": "choice",
+          "sentence": "Pourriez-vous me ___ le document signé ?",
+          "options": ["renvoyer", "rendre visite", "répondre", "téléphoner"],
+          "answer": "renvoyer",
+          "explain": "Renvoyer quelque chose à quelqu'un = reenviar o devolver algo. Los otros verbos no admiten un complemento directo como le document."
+        },
+        {
+          "type": "gap",
+          "prompt": "Conjuga el verbo entre paréntesis.",
+          "sentence": "Je vous ___ d'agréer, Madame, l'expression de mes salutations distinguées. (prier)",
+          "answer": "prie",
+          "explain": "Fórmula de cierre de carta formal. En correos se prefiere Cordialement."
+        }
+      ]
+    },
+    {
+      "id": "l6",
+      "title": "Les courses et la maison",
+      "focus": "Partitivos, cantidades y el pronombre en",
+      "intro": "Para cantidades indeterminadas se usan du, de la, de l' y des. Tras una negación o una cantidad pasan a de (d'): pas de lait, un kilo de pommes. El pronombre en sustituye a un complemento introducido por de o a una cantidad: j'en achète trois.",
+      "exercises": [
+        {
+          "type": "choice",
+          "sentence": "Je voudrais ___ pain, s'il vous plaît.",
+          "options": ["du", "de la", "des", "le"],
+          "answer": "du",
+          "explain": "Pain es masculino y aquí la cantidad es indeterminada: du pain."
+        },
+        {
+          "type": "choice",
+          "sentence": "Il n'y a plus ___ lait dans le frigo.",
+          "options": ["de", "du", "le", "des"],
+          "answer": "de",
+          "explain": "Tras una negación, el partitivo pasa a de: plus de lait."
+        },
+        {
+          "type": "gap",
+          "prompt": "Completa el hueco.",
+          "sentence": "J'ai acheté un kilo ___ pommes.",
+          "answer": "de",
+          "explain": "Después de una cantidad se usa de, sin artículo."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Sustituye el complemento por «en».",
+          "source": "J'achète trois bouteilles d'eau.",
+          "answer": "J'en achète trois.",
+          "accept": [
+            "j'en achète {trois|3}"
+          ],
+          "explain": "En sustituye a bouteilles d'eau; la cantidad (trois) se mantiene al final."
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Responde en negativo usando «en».",
+          "source": "Tu as des enfants ?",
+          "answer": "Non, je n'en ai pas.",
+          "accept": [
+            "{non |}je n'en ai pas"
+          ],
+          "explain": "En va delante del verbo y ne… pas lo rodea: je n'en ai pas."
+        },
+        {
+          "type": "translate",
+          "prompt": "¿Queda café?",
+          "answer": "Il reste du café ?",
+          "accept": [
+            "{est ce qu'il reste|il reste|reste t il} du café",
+            "{est ce qu'il y a|il y a|y a t il} encore du café"
+          ],
+          "explain": "Il reste + partitivo expresa que todavía queda algo."
+        },
+        {
+          "type": "match",
+          "pairs": [
+            ["une boulangerie", "una panadería"],
+            ["une facture", "una factura"],
+            ["le loyer", "el alquiler"],
+            ["une machine à laver", "una lavadora"],
+            ["faire le ménage", "hacer la limpieza"]
+          ]
+        },
+        {
+          "type": "reformulate",
+          "prompt": "Pon la frase en negativo.",
+          "source": "Je mange de la viande.",
+          "answer": "Je ne mange pas de viande.",
+          "explain": "En negativo, de la pasa a de: pas de viande."
+        }
+      ]
+    }
+  ]
+}
